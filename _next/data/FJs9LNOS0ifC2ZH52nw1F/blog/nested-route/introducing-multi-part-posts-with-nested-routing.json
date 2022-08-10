@@ -1,0 +1,63 @@
+{
+  "pageProps": {
+    "post": {
+      "mdxSource": "var Component=(()=>{var l=Object.create;var o=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var r=n=>o(n,\"__esModule\",{value:!0});var m=(n,s)=>()=>(s||n((s={exports:{}}).exports,s),s.exports),f=(n,s)=>{r(n);for(var i in s)o(n,i,{get:s[i],enumerable:!0})},g=(n,s,i)=>{if(s&&typeof s==\"object\"||typeof s==\"function\")for(let t of h(s))!p.call(n,t)&&t!==\"default\"&&o(n,t,{get:()=>s[t],enumerable:!(i=c(s,t))||i.enumerable});return n},b=n=>g(r(o(n!=null?l(u(n)):{},\"default\",n&&n.__esModule&&\"default\"in n?{get:()=>n.default,enumerable:!0}:{value:n,enumerable:!0})),n);var d=m((I,a)=>{a.exports=_jsx_runtime});var N={};f(N,{default:()=>y,frontmatter:()=>x});var e=b(d()),x={title:\"Introducing Multi-part Posts with Nested Routing\",date:\"2021-05-02\",tags:[\"multi-author\",\"next-js\",\"feature\"],draft:!1,summary:\"The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!\"};function j(n={}){let{wrapper:s}=n.components||{};return s?(0,e.jsx)(s,Object.assign({},n,{children:(0,e.jsx)(i,{})})):i();function i(){let t=Object.assign({h1:\"h1\",a:\"a\",span:\"span\",p:\"p\",code:\"code\",h2:\"h2\",ul:\"ul\",li:\"li\"},n.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(t.h1,{id:\"nested-routes\",children:[(0,e.jsx)(t.a,{href:\"#nested-routes\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(t.span,{className:\"icon icon-link\"})}),\"Nested Routes\"]}),(0,e.jsxs)(t.p,{children:[\"The blog template supports posts in nested sub-folders. This helps in organisation and can be used to group posts of similar content e.g. a multi-part series. This post is itself an example of a nested route! It's located in the \",(0,e.jsx)(t.code,{children:\"/data/blog/nested-route\"}),\" folder.\"]}),(0,e.jsxs)(t.h2,{id:\"how\",children:[(0,e.jsx)(t.a,{href:\"#how\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(t.span,{className:\"icon icon-link\"})}),\"How\"]}),(0,e.jsxs)(t.p,{children:[\"Simplify create multiple folders inside the main \",(0,e.jsx)(t.code,{children:\"/data/blog\"}),\" folder and add your \",(0,e.jsx)(t.code,{children:\".md\"}),\"/\",(0,e.jsx)(t.code,{children:\".mdx\"}),\" files to them. You can even create something like \",(0,e.jsx)(t.code,{children:\"/data/blog/nested-route/deeply-nested-route/my-post.md\"})]}),(0,e.jsx)(t.p,{children:\"We use Next.js catch all routes to handle the routing and path creations.\"}),(0,e.jsxs)(t.h2,{id:\"use-cases\",children:[(0,e.jsx)(t.a,{href:\"#use-cases\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(t.span,{className:\"icon icon-link\"})}),\"Use Cases\"]}),(0,e.jsx)(t.p,{children:\"Here are some reasons to use nested routes\"}),(0,e.jsxs)(t.ul,{children:[(0,e.jsx)(t.li,{children:\"More logical content organisation (blogs will still be displayed based on the created date)\"}),(0,e.jsx)(t.li,{children:\"Multi-part posts\"}),(0,e.jsx)(t.li,{children:\"Different sub-routes for each author\"}),(0,e.jsxs)(t.li,{children:[\"Internationalization (though it would be recommended to use \",(0,e.jsx)(t.a,{href:\"https://nextjs.org/docs/advanced-features/i18n-routing\",children:\"Next.js built-in i8n routing\"}),\")\"]})]}),(0,e.jsxs)(t.h2,{id:\"note\",children:[(0,e.jsx)(t.a,{href:\"#note\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(t.span,{className:\"icon icon-link\"})}),\"Note\"]}),(0,e.jsx)(t.ul,{children:(0,e.jsx)(t.li,{children:\"The previous/next post links at bottom of the template are currently sorted by date. One could explore modifying the template to refer the reader to the previous/next post in the series, rather than by date.\"})})]})}}var y=j;return N;})();\n;return Component;",
+      "toc": [
+        { "value": "Nested Routes", "url": "#nested-routes", "depth": 1 },
+        { "value": "How", "url": "#how", "depth": 2 },
+        { "value": "Use Cases", "url": "#use-cases", "depth": 2 },
+        { "value": "Note", "url": "#note", "depth": 2 }
+      ],
+      "frontMatter": {
+        "readingTime": { "text": "2 min read", "minutes": 1.085, "time": 65100, "words": 217 },
+        "slug": "nested-route/introducing-multi-part-posts-with-nested-routing",
+        "fileName": "nested-route/introducing-multi-part-posts-with-nested-routing.md",
+        "title": "Introducing Multi-part Posts with Nested Routing",
+        "date": "2021-05-02T00:00:00.000Z",
+        "tags": ["multi-author", "next-js", "feature"],
+        "draft": false,
+        "summary": "The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!"
+      }
+    },
+    "authorDetails": [
+      {
+        "readingTime": { "text": "1 min read", "minutes": 0.61, "time": 36600, "words": 122 },
+        "slug": ["default"],
+        "fileName": "default.md",
+        "name": "Tails Azimuth",
+        "avatar": "/static/images/avatar.png",
+        "occupation": "Professor of Atmospheric Science",
+        "company": "Stanford University",
+        "email": "address@yoursite.com",
+        "twitter": "https://twitter.com/Twitter",
+        "linkedin": "https://www.linkedin.com",
+        "github": "https://github.com",
+        "date": null
+      }
+    ],
+    "prev": {
+      "title": "Introducing Tailwind Nextjs Starter Blog",
+      "date": "2021-01-12T00:00:00.000Z",
+      "lastmod": "2021-02-01",
+      "tags": ["next-js", "tailwind", "guide"],
+      "draft": false,
+      "summary": "Looking for a performant, out of the box template, with all the best in web technology to support your blogging needs? Checkout the Tailwind Nextjs Starter Blog template.",
+      "images": ["/static/images/canada/mountains.jpg", "/static/images/canada/toronto.jpg"],
+      "authors": ["default", "sparrowhawk"],
+      "slug": "introducing-tailwind-nextjs-starter-blog"
+    },
+    "next": {
+      "title": "New features in v1",
+      "date": "2021-08-07T15:32:14.000Z",
+      "lastmod": "2021-02-01",
+      "tags": ["next-js", "tailwind", "guide"],
+      "draft": false,
+      "summary": "An overview of the new features released in v1 - code block copy, multiple authors, frontmatter layout and more",
+      "layout": "PostSimple",
+      "bibliography": "references-data.bib",
+      "canonicalUrl": "https://tailwind-nextjs-starter-blog.vercel.app/blog/new-features-in-v1/",
+      "slug": "new-features-in-v1"
+    }
+  },
+  "__N_SSG": true
+}

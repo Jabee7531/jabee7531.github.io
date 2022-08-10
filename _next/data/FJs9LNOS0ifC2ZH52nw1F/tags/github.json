@@ -1,0 +1,16 @@
+{
+  "pageProps": {
+    "posts": [
+      {
+        "title": "Markdown Guide",
+        "date": "2019-10-11T00:00:00.000Z",
+        "tags": ["github", "guide"],
+        "draft": false,
+        "summary": "Markdown cheatsheet for all your blogging needs - headers, lists, images, tables and more! An illustrated guide based on GitHub Flavored Markdown.",
+        "slug": "github-markdown-guide"
+      }
+    ],
+    "tag": "github"
+  },
+  "__N_SSG": true
+}
