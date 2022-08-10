@@ -1,6 +1,6 @@
 self.__SSG_MANIFEST = new Set([
-  '\u002Ftags',
   '\u002Fblog',
+  '\u002Ftags',
   '\u002Fabout',
   '\u002F',
   '\u002Fblog\u002Fpage\u002F[page]',
