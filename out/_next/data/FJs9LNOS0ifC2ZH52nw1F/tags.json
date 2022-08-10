@@ -1,0 +1,24 @@
+{
+  "pageProps": {
+    "tags": {
+      "markdown": 1,
+      "code": 1,
+      "features": 1,
+      "next-js": 5,
+      "math": 1,
+      "ols": 1,
+      "github": 1,
+      "guide": 4,
+      "tailwind": 2,
+      "multi-author": 1,
+      "feature": 1,
+      "holiday": 1,
+      "canada": 1,
+      "images": 1,
+      "writings": 1,
+      "book": 1,
+      "reflection": 1
+    }
+  },
+  "__N_SSG": true
+}

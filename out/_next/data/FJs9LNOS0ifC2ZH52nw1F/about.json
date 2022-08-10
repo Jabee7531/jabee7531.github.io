@@ -1,0 +1,23 @@
+{
+  "pageProps": {
+    "authorDetails": {
+      "mdxSource": "var Component=(()=>{var l=Object.create;var n=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,d=Object.prototype.hasOwnProperty;var r=e=>n(e,\"__esModule\",{value:!0});var h=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{r(e);for(var a in t)n(e,a,{get:t[a],enumerable:!0})},g=(e,t,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of m(t))!d.call(e,s)&&s!==\"default\"&&n(e,s,{get:()=>t[s],enumerable:!(a=u(t,s))||a.enumerable});return e},w=e=>g(r(n(e!=null?l(p(e)):{},\"default\",e&&e.__esModule&&\"default\"in e?{get:()=>e.default,enumerable:!0}:{value:e,enumerable:!0})),e);var c=h((_,o)=>{o.exports=_jsx_runtime});var v={};f(v,{default:()=>j,frontmatter:()=>x});var i=w(c()),x={name:\"Tails Azimuth\",avatar:\"/static/images/avatar.png\",occupation:\"Professor of Atmospheric Science\",company:\"Stanford University\",email:\"address@yoursite.com\",twitter:\"https://twitter.com/Twitter\",linkedin:\"https://www.linkedin.com\",github:\"https://github.com\"};function b(e={}){let{wrapper:t}=e.components||{};return t?(0,i.jsx)(t,Object.assign({},e,{children:(0,i.jsx)(a,{})})):a();function a(){let s=Object.assign({p:\"p\"},e.components);return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(s.p,{children:\"Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.\"}),(0,i.jsx)(s.p,{children:\"He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.\"}),(0,i.jsx)(s.p,{children:\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.\"})]})}}var j=b;return v;})();\n;return Component;",
+      "toc": [],
+      "frontMatter": {
+        "readingTime": { "text": "1 min read", "minutes": 0.61, "time": 36600, "words": 122 },
+        "slug": ["default"],
+        "fileName": "default.md",
+        "name": "Tails Azimuth",
+        "avatar": "/static/images/avatar.png",
+        "occupation": "Professor of Atmospheric Science",
+        "company": "Stanford University",
+        "email": "address@yoursite.com",
+        "twitter": "https://twitter.com/Twitter",
+        "linkedin": "https://www.linkedin.com",
+        "github": "https://github.com",
+        "date": null
+      }
+    }
+  },
+  "__N_SSG": true
+}
