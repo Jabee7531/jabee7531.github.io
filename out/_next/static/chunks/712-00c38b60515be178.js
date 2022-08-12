@@ -950,7 +950,8 @@
                 }),
                 (0, n.BX)('ul', {
                   children: [
-                    !g.length && 'No posts found.',
+                    !g.length &&
+                      '\uac8c\uc2dc\uae00\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.',
                     f.map(function (e) {
                       var t = e.slug,
                         r = e.date,

@@ -135,12 +135,12 @@
             E = u.date,
             A = u.lastmod,
             i = u.url,
-            o = u.images,
-            c = void 0 === o ? [] : o,
+            c = u.images,
+            o = void 0 === c ? [] : c,
             B = u.canonicalUrl,
             l = ((0, r.useRouter)(), new Date(E).toISOString()),
             s = new Date(A || E).toISOString(),
-            d = (0 === c.length ? [a().socialBanner] : 'string' === typeof c ? [c] : c).map(
+            d = (0 === o.length ? [a().socialBanner] : 'string' === typeof o ? [o] : o).map(
               function (u) {
                 return { '@type': 'ImageObject', url: u.includes('http') ? u : a().siteUrl + u }
               }
@@ -265,13 +265,13 @@
           E = u.initialDisplayPosts,
           A = void 0 === E ? [] : E,
           i = u.pagination,
-          o = (0, n.useState)(''),
-          c = o[0],
-          B = o[1],
+          c = (0, n.useState)(''),
+          o = c[0],
+          B = c[1],
           l = D.filter(function (u) {
-            return (u.title + u.summary + u.tags.join(' ')).toLowerCase().includes(c.toLowerCase())
+            return (u.title + u.summary + u.tags.join(' ')).toLowerCase().includes(o.toLowerCase())
           }),
-          s = A.length > 0 && !c ? A : l
+          s = A.length > 0 && !o ? A : l
         return (0, t.BX)(t.HY, {
           children: [
             (0, t.BX)('div', {
@@ -318,7 +318,8 @@
                 }),
                 (0, t.BX)('ul', {
                   children: [
-                    !l.length && 'No posts found.',
+                    !l.length &&
+                      '\uac8c\uc2dc\uae00\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.',
                     s.map(function (u) {
                       var D = u.slug,
                         F = u.date,
@@ -388,7 +389,7 @@
             }),
             i &&
               i.totalPages > 1 &&
-              !c &&
+              !o &&
               (0, t.tZ)(a, { currentPage: i.currentPage, totalPages: i.totalPages }),
           ],
         })

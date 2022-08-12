@@ -420,7 +420,7 @@
                     (0, e.tZ)('h1', {
                       className:
                         'text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14',
-                      children: 'Latest',
+                      children: '\ucd5c\uadfc \uae00 \u2728',
                     }),
                     (0, e.tZ)('p', {
                       className: 'text-lg leading-7 text-gray-500 dark:text-gray-400',
@@ -431,7 +431,8 @@
                 (0, e.BX)('ul', {
                   className: 'divide-y divide-gray-200 dark:divide-gray-700',
                   children: [
-                    !D.length && 'No posts found.',
+                    !D.length &&
+                      '\uac8c\uc2dc\uae00\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.',
                     D.slice(0, 5).map(function (u) {
                       var D = u.slug,
                         F = u.date,
@@ -525,7 +526,7 @@
                   href: '/blog',
                   className: 'text-primary-500 hover:text-primary-600 dark:hover:text-primary-400',
                   'aria-label': 'all posts',
-                  children: 'All Posts \u2192',
+                  children: '\uc804\uccb4 \uae00 \u2192',
                 }),
               }),
             '' !== i().newsletter.provider &&
