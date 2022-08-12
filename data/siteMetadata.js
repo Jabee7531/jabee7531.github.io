@@ -12,10 +12,10 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   email: 'jabee7531@gmail.com',
   github: 'https://github.com/Jabee7531',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  // facebook: 'https://facebook.com',
+  // twitter: 'https://twitter.com/Twitter',
+  // linkedin: 'https://www.linkedin.com',
   locale: 'ko-KR',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
