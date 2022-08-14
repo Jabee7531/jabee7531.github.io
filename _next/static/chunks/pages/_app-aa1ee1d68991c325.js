@@ -31,35 +31,35 @@
             v = void 0 === h ? 'theme' : h,
             g = e.themes,
             k = void 0 === g ? ['light', 'dark'] : g,
-            O = e.defaultTheme,
-            E = void 0 === O ? (s ? 'system' : 'light') : O,
-            b = e.attribute,
-            z = void 0 === b ? 'data-theme' : b,
-            R = e.value,
-            w = e.children,
-            C = (0, n.useState)(function () {
-              return u(v, E)
+            b = e.defaultTheme,
+            O = void 0 === b ? (s ? 'system' : 'light') : b,
+            E = e.attribute,
+            z = void 0 === E ? 'data-theme' : E,
+            w = e.value,
+            R = e.children,
+            M = (0, n.useState)(function () {
+              return u(v, O)
             }),
-            M = C[0],
-            Z = C[1],
+            C = M[0],
+            Z = M[1],
             x = (0, n.useState)(function () {
               return u(v)
             }),
             _ = x[0],
-            T = x[1],
-            j = R ? Object.values(R) : k,
-            S = (0, n.useCallback)(
+            j = x[1],
+            T = w ? Object.values(w) : k,
+            L = (0, n.useCallback)(
               function (e) {
                 var t = p(e)
-                T(t), 'system' !== M || l || N(t, !1)
+                j(t), 'system' !== C || l || N(t, !1)
               },
-              [M, l]
+              [C, l]
             ),
-            L = (0, n.useRef)(S)
-          L.current = S
+            S = (0, n.useRef)(L)
+          S.current = L
           var N = (0, n.useCallback)(function (e, l, t) {
             void 0 === l && (l = !0), void 0 === t && (t = !0)
-            var n = (null == R ? void 0 : R[e]) || e,
+            var n = (null == w ? void 0 : w[e]) || e,
               a = r && t ? m() : null
             if (l)
               try {
@@ -67,20 +67,20 @@
               } catch (e) {}
             if ('system' === e && s) {
               var c = p()
-              n = (null == R ? void 0 : R[c]) || c
+              n = (null == w ? void 0 : w[c]) || c
             }
             if (t) {
               var o,
                 i = document.documentElement
               'class' === z
-                ? ((o = i.classList).remove.apply(o, j), i.classList.add(n))
+                ? ((o = i.classList).remove.apply(o, T), i.classList.add(n))
                 : i.setAttribute(z, n),
                 null == a || a()
             }
           }, [])
           ;(0, n.useEffect)(function () {
             var e = function () {
-                return L.current.apply(L, [].slice.call(arguments))
+                return S.current.apply(S, [].slice.call(arguments))
               },
               l = window.matchMedia(i)
             return (
@@ -91,7 +91,7 @@
               }
             )
           }, [])
-          var I = (0, n.useCallback)(
+          var A = (0, n.useCallback)(
             function (e) {
               l ? N(e, !0, !1) : N(e), Z(e)
             },
@@ -101,7 +101,7 @@
             (0, n.useEffect)(
               function () {
                 var e = function (e) {
-                  e.key === v && I(e.newValue)
+                  e.key === v && A(e.newValue)
                 }
                 return (
                   window.addEventListener('storage', e),
@@ -110,26 +110,26 @@
                   }
                 )
               },
-              [I]
+              [A]
             ),
             (0, n.useEffect)(
               function () {
                 if (y) {
                   var e =
-                    l && o.includes(l) ? l : M && o.includes(M) ? M : ('system' === M && _) || null
+                    l && o.includes(l) ? l : C && o.includes(C) ? C : ('system' === C && _) || null
                   document.documentElement.style.setProperty('color-scheme', e)
                 }
               },
-              [y, M, _, l]
+              [y, C, _, l]
             ),
             n.default.createElement(
               a.Provider,
               {
                 value: {
-                  theme: M,
-                  setTheme: I,
+                  theme: C,
+                  setTheme: A,
                   forcedTheme: l,
-                  resolvedTheme: 'system' === M ? _ : M,
+                  resolvedTheme: 'system' === C ? _ : C,
                   themes: s ? [].concat(k, ['system']) : k,
                   systemTheme: s ? _ : void 0,
                 },
@@ -138,12 +138,12 @@
                 forcedTheme: l,
                 storageKey: v,
                 attribute: z,
-                value: R,
+                value: w,
                 enableSystem: s,
-                defaultTheme: E,
-                attrs: j,
+                defaultTheme: O,
+                attrs: T,
               }),
-              w
+              R
             )
           )
         },
@@ -550,60 +550,52 @@
           })
         }
     },
-    1576: function (e, l, t) {
+    1576: function (e) {
       'use strict'
-      var n = t(3454),
-        r = {
-          title: 'JaBee\uc758 \ube14\ub85c\uadf8',
-          author: 'JaBee',
-          headerTitle: 'JaBee',
-          description: 'JaBee\uc758 \uae30\uc220 \ube14\ub85c\uadf8 \uc785\ub2c8\ub2e4 !',
-          language: 'ko-KR',
-          theme: 'system',
-          siteUrl: 'https://jabee7531.github.io',
-          siteRepo: 'https://github.com/Jabee7531/jabee7531.github.io',
-          siteLogo: '/static/images/logo.png',
-          image: '/static/images/avatar.png',
-          socialBanner: '/static/images/twitter-card.png',
-          email: 'jabee7531@gmail.com',
-          github: 'https://github.com/Jabee7531',
-          youtube: 'https://youtube.com',
-          locale: 'ko-KR',
-          analytics: {
-            plausibleDataDomain: '',
-            simpleAnalytics: !1,
-            umamiWebsiteId: '',
-            googleAnalyticsId: '',
-            posthogAnalyticsId: '',
+      e.exports = {
+        title: 'JaBee\uc758 \ube14\ub85c\uadf8',
+        author: 'JaBee',
+        headerTitle: 'JaBee',
+        description: 'JaBee\uc758 \uae30\uc220 \ube14\ub85c\uadf8 \uc785\ub2c8\ub2e4 !',
+        language: 'ko-KR',
+        theme: 'system',
+        siteUrl: 'https://jabee7531.github.io',
+        siteRepo: 'https://github.com/Jabee7531/jabee7531.github.io',
+        siteLogo: '/static/images/logo.png',
+        image: '/static/images/avatar.png',
+        socialBanner: '/static/images/twitter-card.png',
+        email: 'jabee7531@gmail.com',
+        github: 'https://github.com/Jabee7531',
+        youtube: 'https://youtube.com',
+        locale: 'ko-KR',
+        analytics: {
+          plausibleDataDomain: '',
+          simpleAnalytics: !1,
+          umamiWebsiteId: '',
+          googleAnalyticsId: '',
+          posthogAnalyticsId: '',
+        },
+        newsletter: { provider: 'buttondown' },
+        comment: {
+          provider: 'giscus',
+          giscusConfig: {
+            repo: 'Jabee7531/jabee7531.github.io',
+            repositoryId: 'R_kgDOHyoewA',
+            category: 'Giscus',
+            categoryId: 'DIC_kwDOHyoewM4CQ0P1',
+            mapping: 'pathname',
+            reactions: '1',
+            metadata: '0',
+            theme: 'light',
+            inputPosition: 'bottom',
+            lang: 'ko',
+            darkTheme: 'transparent_dark',
+            themeURL: '',
           },
-          newsletter: { provider: 'buttondown' },
-          comment: {
-            provider: 'giscus',
-            giscusConfig: {
-              repo: n.env.NEXT_PUBLIC_GISCUS_REPO,
-              repositoryId: n.env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID,
-              category: n.env.NEXT_PUBLIC_GISCUS_CATEGORY,
-              categoryId: n.env.NEXT_PUBLIC_GISCUS_CATEGORY_ID,
-              mapping: 'pathname',
-              reactions: '1',
-              metadata: '0',
-              theme: 'light',
-              inputPosition: 'bottom',
-              lang: 'ko',
-              darkTheme: 'transparent_dark',
-              themeURL: '',
-            },
-            utterancesConfig: {
-              repo: n.env.NEXT_PUBLIC_UTTERANCES_REPO,
-              issueTerm: '',
-              label: '',
-              theme: '',
-              darkTheme: '',
-            },
-            disqusConfig: { shortname: n.env.NEXT_PUBLIC_DISQUS_SHORTNAME },
-          },
-        }
-      e.exports = r
+          utterancesConfig: { repo: '', issueTerm: '', label: '', theme: '', darkTheme: '' },
+          disqusConfig: { shortname: '' },
+        },
+      }
     },
     1551: function (e, l, t) {
       'use strict'
@@ -700,25 +692,25 @@
           g = e.locale
         'string' === typeof d && (d = c.default.createElement('a', null, d))
         var k = (l = c.default.Children.only(d)) && 'object' === typeof l && l.ref,
-          O = r(s.useIntersection({ rootMargin: '200px' }), 2),
-          E = O[0],
-          b = O[1],
+          b = r(s.useIntersection({ rootMargin: '200px' }), 2),
+          O = b[0],
+          E = b[1],
           z = c.default.useCallback(
             function (e) {
-              E(e), k && ('function' === typeof k ? k(e) : 'object' === typeof k && (k.current = e))
+              O(e), k && ('function' === typeof k ? k(e) : 'object' === typeof k && (k.current = e))
             },
-            [k, E]
+            [k, O]
           )
         c.default.useEffect(
           function () {
-            var e = b && t && o.isLocalURL(m),
+            var e = E && t && o.isLocalURL(m),
               l = 'undefined' !== typeof g ? g : n && n.locale,
               r = f[m + '%' + p + (l ? '%' + l : '')]
             e && !r && u(n, m, p, { locale: l })
           },
-          [p, m, b, g, t, n]
+          [p, m, E, g, t, n]
         )
-        var R = {
+        var w = {
           ref: z,
           onClick: function (e) {
             l.props && 'function' === typeof l.props.onClick && l.props.onClick(e),
@@ -747,12 +739,12 @@
           },
         }
         if (e.passHref || ('a' === l.type && !('href' in l.props))) {
-          var w = 'undefined' !== typeof g ? g : n && n.locale,
-            C =
-              n && n.isLocaleDomain && o.getDomainLocale(p, w, n && n.locales, n && n.domainLocales)
-          R.href = C || o.addBasePath(o.addLocale(p, w, n && n.defaultLocale))
+          var R = 'undefined' !== typeof g ? g : n && n.locale,
+            M =
+              n && n.isLocaleDomain && o.getDomainLocale(p, R, n && n.locales, n && n.domainLocales)
+          w.href = M || o.addBasePath(o.addLocale(p, R, n && n.defaultLocale))
         }
-        return c.default.cloneElement(l, R)
+        return c.default.cloneElement(l, w)
       }
       l.default = m
     },
@@ -1876,9 +1868,9 @@
             )
           )
         },
-        O = t(7233),
-        E = t(890),
-        b = t(2557)
+        b = t(7233),
+        O = t(890),
+        E = t(2557)
       function z() {
         return (0, n.tZ)('footer', {
           children: (0, n.BX)('div', {
@@ -1887,12 +1879,12 @@
               (0, n.BX)('div', {
                 className: 'mb-3 flex space-x-4',
                 children: [
-                  (0, n.tZ)(b.Z, { kind: 'mail', href: 'mailto:'.concat(o().email), size: '6' }),
-                  (0, n.tZ)(b.Z, { kind: 'github', href: o().github, size: '6' }),
-                  (0, n.tZ)(b.Z, { kind: 'facebook', href: o().facebook, size: '6' }),
-                  (0, n.tZ)(b.Z, { kind: 'youtube', href: o().youtube, size: '6' }),
-                  (0, n.tZ)(b.Z, { kind: 'linkedin', href: o().linkedin, size: '6' }),
-                  (0, n.tZ)(b.Z, { kind: 'twitter', href: o().twitter, size: '6' }),
+                  (0, n.tZ)(E.Z, { kind: 'mail', href: 'mailto:'.concat(o().email), size: '6' }),
+                  (0, n.tZ)(E.Z, { kind: 'github', href: o().github, size: '6' }),
+                  (0, n.tZ)(E.Z, { kind: 'facebook', href: o().facebook, size: '6' }),
+                  (0, n.tZ)(E.Z, { kind: 'youtube', href: o().youtube, size: '6' }),
+                  (0, n.tZ)(E.Z, { kind: 'linkedin', href: o().linkedin, size: '6' }),
+                  (0, n.tZ)(E.Z, { kind: 'twitter', href: o().twitter, size: '6' }),
                 ],
               }),
               (0, n.BX)('div', {
@@ -1902,7 +1894,7 @@
                   (0, n.tZ)('div', { children: ' \u2022 ' }),
                   (0, n.tZ)('div', { children: '\xa9 '.concat(new Date().getFullYear()) }),
                   (0, n.tZ)('div', { children: ' \u2022 ' }),
-                  (0, n.tZ)(O.Z, { href: '/', children: o().title }),
+                  (0, n.tZ)(b.Z, { href: '/', children: o().title }),
                 ],
               }),
               (0, n.tZ)('div', { className: 'mb-8 text-sm text-gray-500 dark:text-gray-400' }),
@@ -1910,7 +1902,7 @@
           }),
         })
       }
-      var R = function () {
+      var w = function () {
           var e = (0, v.useState)(!1),
             l = e[0],
             t = e[1],
@@ -1969,7 +1961,7 @@
                     className: 'fixed mt-8 h-full',
                     children: h.map(function (e) {
                       return (0,
-                      n.tZ)('div', { className: 'px-12 py-4', children: (0, n.tZ)(O.Z, { href: e.href, className: 'text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100', onClick: r, children: e.title }) }, e.title)
+                      n.tZ)('div', { className: 'px-12 py-4', children: (0, n.tZ)(b.Z, { href: e.href, className: 'text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100', onClick: r, children: e.title }) }, e.title)
                     }),
                   }),
                 ],
@@ -1977,7 +1969,7 @@
             ],
           })
         },
-        w = function () {
+        R = function () {
           var e = (0, v.useState)(!1),
             l = e[0],
             t = e[1],
@@ -2015,9 +2007,9 @@
             })
           )
         },
-        C = function (e) {
+        M = function (e) {
           var l = e.children
-          return (0, n.tZ)(E.Z, {
+          return (0, n.tZ)(O.Z, {
             children: (0, n.BX)('div', {
               className: 'flex h-screen flex-col justify-between',
               children: [
@@ -2025,7 +2017,7 @@
                   className: 'flex items-center justify-between py-10',
                   children: [
                     (0, n.tZ)('div', {
-                      children: (0, n.tZ)(O.Z, {
+                      children: (0, n.tZ)(b.Z, {
                         href: '/',
                         'aria-label': o().headerTitle,
                         children: (0, n.BX)('div', {
@@ -2049,11 +2041,11 @@
                           className: 'hidden sm:block',
                           children: h.map(function (e) {
                             return (0,
-                            n.tZ)(O.Z, { href: e.href, className: 'p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4', children: e.title }, e.title)
+                            n.tZ)(b.Z, { href: e.href, className: 'p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4', children: e.title }, e.title)
                           }),
                         }),
-                        (0, n.tZ)(w, {}),
                         (0, n.tZ)(R, {}),
+                        (0, n.tZ)(w, {}),
                       ],
                     }),
                   ],
@@ -2064,7 +2056,7 @@
             }),
           })
         },
-        M = (t(1163), t(3454))
+        C = (t(1163), t(3454))
       function Z(e, l, t) {
         return (
           l in e
@@ -2094,7 +2086,7 @@
         }
         return e
       }
-      M.env.SOCKET
+      C.env.SOCKET
       function _(e) {
         var l = e.Component,
           t = e.pageProps
@@ -2110,7 +2102,7 @@
             }),
             false,
             (0, n.tZ)(y, {}),
-            (0, n.tZ)(C, { children: (0, n.tZ)(l, x({}, t)) }),
+            (0, n.tZ)(M, { children: (0, n.tZ)(l, x({}, t)) }),
           ],
         })
       }
