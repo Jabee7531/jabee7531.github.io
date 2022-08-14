@@ -8,7 +8,7 @@
     '/blog': ['static/chunks/pages/blog-bec87cdd3d5dca87.js'],
     '/blog/page/[page]': ['static/chunks/pages/blog/page/[page]-97e15fe6e19ca25d.js'],
     '/blog/[...slug]': [s, a, 'static/chunks/pages/blog/[...slug]-5f87243d6efe2844.js'],
-    '/projects': ['static/chunks/pages/projects-3f3c101a8c905c2a.js'],
+    '/projects': ['static/chunks/pages/projects-a4de615452042f79.js'],
     '/tags': ['static/chunks/pages/tags-195a99bf1f26025d.js'],
     '/tags/[tag]': ['static/chunks/pages/tags/[tag]-3104fbd43c5485df.js'],
     sortedPages: [

@@ -69,10 +69,10 @@
           return s
         },
         $t: function () {
-          return d
+          return m
         },
         Uy: function () {
-          return m
+          return g
         },
       })
       var n = r(7320),
@@ -86,8 +86,8 @@
             o = t.ogType,
             l = t.ogImage,
             s = t.twImage,
-            d = t.canonicalUrl,
-            m = (0, a.useRouter)()
+            m = t.canonicalUrl,
+            g = (0, a.useRouter)()
           return (0, n.BX)(i.default, {
             children: [
               (0, n.tZ)('title', { children: e }),
@@ -95,7 +95,7 @@
               (0, n.tZ)('meta', { name: 'description', content: r }),
               (0, n.tZ)('meta', {
                 property: 'og:url',
-                content: ''.concat(c().siteUrl).concat(m.asPath),
+                content: ''.concat(c().siteUrl).concat(g.asPath),
               }),
               (0, n.tZ)('meta', { property: 'og:type', content: o }),
               (0, n.tZ)('meta', { property: 'og:site_name', content: c().title }),
@@ -114,7 +114,7 @@
               (0, n.tZ)('meta', { name: 'twitter:image', content: s }),
               (0, n.tZ)('link', {
                 rel: 'canonical',
-                href: d || ''.concat(c().siteUrl).concat(m.asPath),
+                href: m || ''.concat(c().siteUrl).concat(g.asPath),
               }),
             ],
           })
@@ -132,12 +132,12 @@
             twImage: a,
           })
         },
-        d = function (t) {
+        m = function (t) {
           var e = t.title,
             r = t.description,
             o = c().siteUrl + c().socialBanner,
             s = c().siteUrl + c().socialBanner,
-            d = (0, a.useRouter)()
+            m = (0, a.useRouter)()
           return (0, n.BX)(n.HY, {
             children: [
               (0, n.tZ)(l, { title: e, description: r, ogType: 'website', ogImage: o, twImage: s }),
@@ -146,24 +146,24 @@
                   rel: 'alternate',
                   type: 'application/rss+xml',
                   title: ''.concat(r, ' - RSS feed'),
-                  href: ''.concat(c().siteUrl).concat(d.asPath, '/feed.xml'),
+                  href: ''.concat(c().siteUrl).concat(m.asPath, '/feed.xml'),
                 }),
               }),
             ],
           })
         },
-        m = function (t) {
+        g = function (t) {
           var e = t.authorDetails,
             r = t.title,
             o = t.summary,
             s = t.date,
-            d = t.lastmod,
-            m = t.url,
-            u = t.images,
-            p = void 0 === u ? [] : u,
-            g = t.canonicalUrl,
-            h = ((0, a.useRouter)(), new Date(s).toISOString()),
-            f = new Date(d || s).toISOString(),
+            m = t.lastmod,
+            g = t.url,
+            d = t.images,
+            p = void 0 === d ? [] : d,
+            h = t.canonicalUrl,
+            u = ((0, a.useRouter)(), new Date(s).toISOString()),
+            f = new Date(m || s).toISOString(),
             y = (0 === p.length ? [c().socialBanner] : 'string' === typeof p ? [p] : p).map(
               function (t) {
                 return { '@type': 'ImageObject', url: t.includes('http') ? t : c().siteUrl + t }
@@ -172,10 +172,10 @@
             b = {
               '@context': 'https://schema.org',
               '@type': 'Article',
-              mainEntityOfPage: { '@type': 'WebPage', '@id': m },
+              mainEntityOfPage: { '@type': 'WebPage', '@id': g },
               headline: r,
               image: y,
-              datePublished: h,
+              datePublished: u,
               dateModified: f,
               author: e
                 ? e.map(function (t) {
@@ -198,12 +198,12 @@
                 ogType: 'article',
                 ogImage: y,
                 twImage: Z,
-                canonicalUrl: g,
+                canonicalUrl: h,
               }),
               (0, n.BX)(i.default, {
                 children: [
-                  s && (0, n.tZ)('meta', { property: 'article:published_time', content: h }),
-                  d && (0, n.tZ)('meta', { property: 'article:modified_time', content: f }),
+                  s && (0, n.tZ)('meta', { property: 'article:published_time', content: u }),
+                  m && (0, n.tZ)('meta', { property: 'article:modified_time', content: f }),
                   (0, n.tZ)('script', {
                     type: 'application/ld+json',
                     dangerouslySetInnerHTML: { __html: JSON.stringify(b, null, 2) },
@@ -219,7 +219,7 @@
       r.r(e),
         r.d(e, {
           default: function () {
-            return m
+            return g
           },
         })
       var n = r(7320),
@@ -227,11 +227,46 @@
         a = r.n(i),
         o = [
           {
-            title: 'A Search Engine',
+            title: '\ud574\ucee4\ud1a4 \uc1fc\ud551\ubab0',
             description:
-              "What if you could look up any information in the world? Webpages, images, videos\n    and more. Google has many features to help you find exactly what you're looking\n    for.",
+              '\ud574\ucee4\ud1a4\ucc98\ub7fc \ube60\ub974\uac8c \uc1fc\ud551\ubab0\uc758 \ud504\ub808\uc784\uc744 \ub9cc\ub4e4\uc5b4 \ubcf4\uace0 \uc2f6\uc5b4\uc11c \uc9c1\uc811 \uad6c\ud604\ud55c \uc1fc\ud551\ubab0.',
             imgSrc: '/static/images/google.png',
-            href: 'https://www.google.com',
+            href: 'https://hackathonshop.vercel.app',
+          },
+          {
+            title: '\ud574\ucee4\ud1a4 \uc1fc\ud551\ubab0 Client',
+            description:
+              '\ud574\ucee4\ud1a4\ucc98\ub7fc \ube60\ub974\uac8c \uc1fc\ud551\ubab0\uc758 \ud504\ub808\uc784\uc744 \ub9cc\ub4e4\uc5b4 \ubcf4\uace0 \uc2f6\uc5b4\uc11c \uc9c1\uc811 \uad6c\ud604\ud55c \uc1fc\ud551\ubab0 \ud074\ub77c\uc774\uc5b8\ud2b8.',
+            imgSrc: '/static/images/google.png',
+            href: 'https://github.com/Jabee7531/hackathonshop-client',
+          },
+          {
+            title: '\ud574\ucee4\ud1a4 \uc1fc\ud551\ubab0 Server',
+            description:
+              '\ud574\ucee4\ud1a4\ucc98\ub7fc \ube60\ub974\uac8c \uc1fc\ud551\ubab0\uc758 \ud504\ub808\uc784\uc744 \ub9cc\ub4e4\uc5b4 \ubcf4\uace0 \uc2f6\uc5b4\uc11c \uc9c1\uc811 \uad6c\ud604\ud55c \uc1fc\ud551\ubab0 \uc11c\ubc84.',
+            imgSrc: '/static/images/google.png',
+            href: 'https://github.com/Jabee7531/hackathonshop-server',
+          },
+          {
+            title: '\uc5c9\uc624',
+            description:
+              '\uc88b\uc544\ud558\ub294 \uc791\uac00\uc758 \ud648\ud398\uc774\uc9c0\ub97c \ub9cc\ub4e4\uae30 \uc704\ud574 \uc2dc\uc791\ud55c \ud504\ub85c\uc81d\ud2b8.',
+            imgSrc: '/static/images/google.png',
+            href: 'https://oungo.vercel.app',
+          },
+          {
+            title: '\uc5c9\uc624 Client',
+            description:
+              '\uc88b\uc544\ud558\ub294 \uc791\uac00\uc758 \ud648\ud398\uc774\uc9c0\ub97c \ub9cc\ub4e4\uae30 \uc704\ud574 \uc2dc\uc791\ud55c \ud504\ub85c\uc81d\ud2b8.',
+            imgSrc: '/static/images/google.png',
+            href: 'https://github.com/Jabee7531/OungO-client',
+          },
+          {
+            title: '\uc5c9\uc624 Server',
+            description:
+              '\uc88b\uc544\ud558\ub294 \uc791\uac00\uc758 \ud648\ud398\uc774\uc9c0\ub97c \ub9cc\ub4e4\uae30 \uc704\ud574 \uc2dc\uc791\ud55c \ud504\ub85c\uc81d\ud2b8.',
+            imgSrc: '/static/images/google.png',
+            href: 'https://github.com/Jabee7531/OungO-server',
           },
           {
             title: 'The Time Machine',
@@ -308,11 +343,11 @@
             }),
           })
         },
-        d = r(9831)
-      function m() {
+        m = r(9831)
+      function g() {
         return (0, n.BX)(n.HY, {
           children: [
-            (0, n.tZ)(d.TQ, {
+            (0, n.tZ)(m.TQ, {
               title: 'Projects - '.concat(a().author),
               description: a().description,
             }),
