@@ -30,9 +30,9 @@
             h = e.storageKey,
             v = void 0 === h ? 'theme' : h,
             g = e.themes,
-            O = void 0 === g ? ['light', 'dark'] : g,
-            k = e.defaultTheme,
-            E = void 0 === k ? (s ? 'system' : 'light') : k,
+            k = void 0 === g ? ['light', 'dark'] : g,
+            O = e.defaultTheme,
+            E = void 0 === O ? (s ? 'system' : 'light') : O,
             b = e.attribute,
             z = void 0 === b ? 'data-theme' : b,
             R = e.value,
@@ -47,7 +47,7 @@
             }),
             _ = x[0],
             T = x[1],
-            j = R ? Object.values(R) : O,
+            j = R ? Object.values(R) : k,
             S = (0, n.useCallback)(
               function (e) {
                 var t = p(e)
@@ -130,7 +130,7 @@
                   setTheme: I,
                   forcedTheme: l,
                   resolvedTheme: 'system' === M ? _ : M,
-                  themes: s ? [].concat(O, ['system']) : O,
+                  themes: s ? [].concat(k, ['system']) : k,
                   systemTheme: s ? _ : void 0,
                 },
               },
@@ -363,7 +363,7 @@
       'use strict'
       t.d(l, {
         Z: function () {
-          return O
+          return k
         },
       })
       var n,
@@ -525,7 +525,7 @@
             )
           },
         },
-        O = function (e) {
+        k = function (e) {
           var l = e.kind,
             t = e.href,
             n = e.size,
@@ -560,8 +560,8 @@
           description: 'JaBee\uc758 \uae30\uc220 \ube14\ub85c\uadf8 \uc785\ub2c8\ub2e4 !',
           language: 'ko-KR',
           theme: 'system',
-          siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-          siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+          siteUrl: 'https://jabee7531.github.io',
+          siteRepo: 'https://github.com/Jabee7531/jabee7531.github.io',
           siteLogo: '/static/images/logo.png',
           image: '/static/images/avatar.png',
           socialBanner: '/static/images/twitter-card.png',
@@ -589,7 +589,7 @@
               metadata: '0',
               theme: 'light',
               inputPosition: 'bottom',
-              lang: 'en',
+              lang: 'ko',
               darkTheme: 'transparent_dark',
               themeURL: '',
             },
@@ -699,15 +699,15 @@
           v = e.scroll,
           g = e.locale
         'string' === typeof d && (d = c.default.createElement('a', null, d))
-        var O = (l = c.default.Children.only(d)) && 'object' === typeof l && l.ref,
-          k = r(s.useIntersection({ rootMargin: '200px' }), 2),
-          E = k[0],
-          b = k[1],
+        var k = (l = c.default.Children.only(d)) && 'object' === typeof l && l.ref,
+          O = r(s.useIntersection({ rootMargin: '200px' }), 2),
+          E = O[0],
+          b = O[1],
           z = c.default.useCallback(
             function (e) {
-              E(e), O && ('function' === typeof O ? O(e) : 'object' === typeof O && (O.current = e))
+              E(e), k && ('function' === typeof k ? k(e) : 'object' === typeof k && (k.current = e))
             },
-            [O, E]
+            [k, E]
           )
         c.default.useEffect(
           function () {
@@ -1013,7 +1013,6 @@
           { href: '/blog', title: 'Blog' },
           { href: '/tags', title: 'Tags' },
           { href: '/projects', title: 'Projects' },
-          { href: '/about', title: 'About' },
         ],
         v = t(1720)
       function g() {
@@ -1030,7 +1029,7 @@
           g.apply(this, arguments)
         )
       }
-      var O = function (e) {
+      var k = function (e) {
           return v.createElement(
             'svg',
             g(
@@ -1877,7 +1876,7 @@
             )
           )
         },
-        k = t(7233),
+        O = t(7233),
         E = t(890),
         b = t(2557)
       function z() {
@@ -1903,7 +1902,7 @@
                   (0, n.tZ)('div', { children: ' \u2022 ' }),
                   (0, n.tZ)('div', { children: '\xa9 '.concat(new Date().getFullYear()) }),
                   (0, n.tZ)('div', { children: ' \u2022 ' }),
-                  (0, n.tZ)(k.Z, { href: '/', children: o().title }),
+                  (0, n.tZ)(O.Z, { href: '/', children: o().title }),
                 ],
               }),
               (0, n.tZ)('div', { className: 'mb-8 text-sm text-gray-500 dark:text-gray-400' }),
@@ -1970,7 +1969,7 @@
                     className: 'fixed mt-8 h-full',
                     children: h.map(function (e) {
                       return (0,
-                      n.tZ)('div', { className: 'px-12 py-4', children: (0, n.tZ)(k.Z, { href: e.href, className: 'text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100', onClick: r, children: e.title }) }, e.title)
+                      n.tZ)('div', { className: 'px-12 py-4', children: (0, n.tZ)(O.Z, { href: e.href, className: 'text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100', onClick: r, children: e.title }) }, e.title)
                     }),
                   }),
                 ],
@@ -2026,13 +2025,13 @@
                   className: 'flex items-center justify-between py-10',
                   children: [
                     (0, n.tZ)('div', {
-                      children: (0, n.tZ)(k.Z, {
+                      children: (0, n.tZ)(O.Z, {
                         href: '/',
                         'aria-label': o().headerTitle,
                         children: (0, n.BX)('div', {
                           className: 'flex items-center justify-between',
                           children: [
-                            (0, n.tZ)('div', { className: 'mr-3', children: (0, n.tZ)(O, {}) }),
+                            (0, n.tZ)('div', { className: 'mr-3', children: (0, n.tZ)(k, {}) }),
                             'string' === typeof o().headerTitle
                               ? (0, n.tZ)('div', {
                                   className: 'hidden h-6 text-2xl font-semibold sm:block',
@@ -2050,7 +2049,7 @@
                           className: 'hidden sm:block',
                           children: h.map(function (e) {
                             return (0,
-                            n.tZ)(k.Z, { href: e.href, className: 'p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4', children: e.title }, e.title)
+                            n.tZ)(O.Z, { href: e.href, className: 'p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4', children: e.title }, e.title)
                           }),
                         }),
                         (0, n.tZ)(w, {}),
