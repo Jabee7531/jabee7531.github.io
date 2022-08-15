@@ -35,8 +35,8 @@
             O = void 0 === b ? (s ? 'system' : 'light') : b,
             E = e.attribute,
             z = void 0 === E ? 'data-theme' : E,
-            w = e.value,
-            R = e.children,
+            R = e.value,
+            w = e.children,
             M = (0, n.useState)(function () {
               return u(v, O)
             }),
@@ -47,7 +47,7 @@
             }),
             _ = x[0],
             j = x[1],
-            T = w ? Object.values(w) : k,
+            T = R ? Object.values(R) : k,
             L = (0, n.useCallback)(
               function (e) {
                 var t = p(e)
@@ -59,7 +59,7 @@
           S.current = L
           var N = (0, n.useCallback)(function (e, l, t) {
             void 0 === l && (l = !0), void 0 === t && (t = !0)
-            var n = (null == w ? void 0 : w[e]) || e,
+            var n = (null == R ? void 0 : R[e]) || e,
               a = r && t ? m() : null
             if (l)
               try {
@@ -67,7 +67,7 @@
               } catch (e) {}
             if ('system' === e && s) {
               var c = p()
-              n = (null == w ? void 0 : w[c]) || c
+              n = (null == R ? void 0 : R[c]) || c
             }
             if (t) {
               var o,
@@ -138,12 +138,12 @@
                 forcedTheme: l,
                 storageKey: v,
                 attribute: z,
-                value: w,
+                value: R,
                 enableSystem: s,
                 defaultTheme: O,
                 attrs: T,
               }),
-              R
+              w
             )
           )
         },
@@ -575,7 +575,7 @@
           googleAnalyticsId: 'G-DFJQ2FZEXL',
           posthogAnalyticsId: '',
         },
-        newsletter: { provider: 'buttondown' },
+        newsletter: { provider: '' },
         comment: {
           provider: 'giscus',
           giscusConfig: {
@@ -710,7 +710,7 @@
           },
           [p, m, E, g, t, n]
         )
-        var w = {
+        var R = {
           ref: z,
           onClick: function (e) {
             l.props && 'function' === typeof l.props.onClick && l.props.onClick(e),
@@ -739,12 +739,12 @@
           },
         }
         if (e.passHref || ('a' === l.type && !('href' in l.props))) {
-          var R = 'undefined' !== typeof g ? g : n && n.locale,
+          var w = 'undefined' !== typeof g ? g : n && n.locale,
             M =
-              n && n.isLocaleDomain && o.getDomainLocale(p, R, n && n.locales, n && n.domainLocales)
-          w.href = M || o.addBasePath(o.addLocale(p, R, n && n.defaultLocale))
+              n && n.isLocaleDomain && o.getDomainLocale(p, w, n && n.locales, n && n.domainLocales)
+          R.href = M || o.addBasePath(o.addLocale(p, w, n && n.defaultLocale))
         }
-        return c.default.cloneElement(l, w)
+        return c.default.cloneElement(l, R)
       }
       l.default = m
     },
@@ -1902,7 +1902,7 @@
           }),
         })
       }
-      var w = function () {
+      var R = function () {
           var e = (0, v.useState)(!1),
             l = e[0],
             t = e[1],
@@ -1969,7 +1969,7 @@
             ],
           })
         },
-        R = function () {
+        w = function () {
           var e = (0, v.useState)(!1),
             l = e[0],
             t = e[1],
@@ -2044,8 +2044,8 @@
                             n.tZ)(b.Z, { href: e.href, className: 'p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4', children: e.title }, e.title)
                           }),
                         }),
-                        (0, n.tZ)(R, {}),
                         (0, n.tZ)(w, {}),
+                        (0, n.tZ)(R, {}),
                       ],
                     }),
                   ],
