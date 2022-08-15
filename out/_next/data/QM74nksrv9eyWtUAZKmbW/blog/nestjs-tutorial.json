@@ -1,0 +1,55 @@
+{
+  "pageProps": {
+    "post": {
+      "mdxSource": "var Component=(()=>{var i=Object.create;var r=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var o=a=>r(a,\"__esModule\",{value:!0});var u=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),f=(a,t)=>{o(a);for(var s in t)r(a,s,{get:t[s],enumerable:!0})},N=(a,t,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let n of p(t))!m.call(a,n)&&n!==\"default\"&&r(a,n,{get:()=>t[n],enumerable:!(s=d(t,n))||s.enumerable});return a},k=a=>N(o(r(a!=null?i(h(a)):{},\"default\",a&&a.__esModule&&\"default\"in a?{get:()=>a.default,enumerable:!0}:{value:a,enumerable:!0})),a);var l=u((w,c)=>{c.exports=_jsx_runtime});var j={};f(j,{default:()=>y,frontmatter:()=>g});var e=k(l()),g={title:\"Nestjs \\uACF5\\uC2DD\\uBB38\\uC11C \\uBD80\\uC218\\uAE30\",date:new Date(1628350334e3),lastmod:\"2021-02-01\",tags:[\"nest-js\",\"guide\"],draft:!1,summary:\"Nestjs \\uACF5\\uC2DD\\uBB38\\uC11C\\uB97C \\uBCF4\\uBA70 \\uC2DC\\uC791\\uD558\\uB294 \\uC11C\\uBC84 \\uAC1C\\uBC1C!!\",layout:\"PostSimple\",bibliography:\"references-data.bib\",canonicalUrl:\"https://jabee7531.github.io/blog/nestjs-tutorial\"};function b(a={}){let{wrapper:t}=a.components||{};return t?(0,e.jsx)(t,Object.assign({},a,{children:(0,e.jsx)(s,{})})):s();function s(){let n=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\",sup:\"sup\",pre:\"pre\",code:\"code\",section:\"section\",ol:\"ol\",li:\"li\"},a.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(n.h2,{id:\"overview\",children:[(0,e.jsx)(n.a,{href:\"#overview\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(n.span,{className:\"icon icon-link\"})}),\"Overview\"]}),(0,e.jsx)(n.p,{children:\"A post on the new features introduced in v1.0. New features:\"}),(0,e.jsxs)(n.p,{children:[\"First load JS decreased from 43kB to 39kB despite all the new features added!\",(0,e.jsx)(n.sup,{children:(0,e.jsx)(n.a,{href:\"#user-content-fn-1\",\"aria-describedby\":\"footnote-label\",\"data-footnote-ref\":!0,id:\"user-content-fnref-1\",children:\"1\"})})]}),(0,e.jsxs)(n.p,{children:[\"See \",(0,e.jsx)(n.a,{href:\"#upgrade-guide\",children:\"upgrade guide\"}),\" below if you are migrating from v0 version of the template.\"]}),(0,e.jsxs)(n.h2,{id:\"theme-colors\",children:[(0,e.jsx)(n.a,{href:\"#theme-colors\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(n.span,{className:\"icon icon-link\"})}),\"Theme colors\"]}),(0,e.jsx)(n.p,{children:\"You can easily modify the theme color by changing the primary attribute in the tailwind config file:\"}),(0,e.jsx)(\"div\",{className:\"remark-code-title\",children:\"tailwind.config.js\"}),(0,e.jsx)(n.pre,{className:\"language-js\",children:(0,e.jsxs)(n.code,{className:\"language-js code-highlight\",children:[(0,e.jsxs)(n.span,{className:\"code-line\",children:[(0,e.jsx)(n.span,{className:\"token literal-property property\",children:\"theme\"}),(0,e.jsx)(n.span,{className:\"token operator\",children:\":\"}),\" \",(0,e.jsx)(n.span,{className:\"token punctuation\",children:\"{\"}),`\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[\"    \",(0,e.jsx)(n.span,{className:\"token literal-property property\",children:\"colors\"}),(0,e.jsx)(n.span,{className:\"token operator\",children:\":\"}),\" \",(0,e.jsx)(n.span,{className:\"token punctuation\",children:\"{\"}),`\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[\"      \",(0,e.jsx)(n.span,{className:\"token literal-property property\",children:\"primary\"}),(0,e.jsx)(n.span,{className:\"token operator\",children:\":\"}),\" colors\",(0,e.jsx)(n.span,{className:\"token punctuation\",children:\".\"}),(0,e.jsx)(n.span,{className:\"token property-access\",children:\"teal\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\",\"}),`\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[\"      \",(0,e.jsx)(n.span,{className:\"token literal-property property\",children:\"gray\"}),(0,e.jsx)(n.span,{className:\"token operator\",children:\":\"}),\" colors\",(0,e.jsx)(n.span,{className:\"token punctuation\",children:\".\"}),(0,e.jsx)(n.span,{className:\"token property-access\",children:\"neutral\"}),(0,e.jsx)(n.span,{className:\"token punctuation\",children:\",\"}),`\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[\"      \",(0,e.jsx)(n.span,{className:\"token operator spread\",children:\"...\"}),`\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[\"    \",(0,e.jsx)(n.span,{className:\"token punctuation\",children:\"}\"}),`\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[\"  \",(0,e.jsx)(n.span,{className:\"token operator spread\",children:\"...\"}),`\n`]}),(0,e.jsxs)(n.span,{className:\"code-line\",children:[(0,e.jsx)(n.span,{className:\"token punctuation\",children:\"}\"}),`\n`]})]})}),(0,e.jsxs)(n.section,{className:\"footnotes\",\"data-footnotes\":!0,children:[(0,e.jsxs)(n.h2,{id:\"footnote-label\",className:\"sr-only\",children:[(0,e.jsx)(n.a,{href:\"#footnote-label\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(n.span,{className:\"icon icon-link\"})}),\"Footnotes\"]}),(0,e.jsx)(n.ol,{children:(0,e.jsx)(n.li,{id:\"user-content-fn-1\",children:(0,e.jsxs)(n.p,{children:[\"With the new changes in Nextjs 12, first load JS increase to 45kB. \",(0,e.jsx)(n.a,{href:\"#user-content-fnref-1\",\"aria-label\":\"Back to content\",className:\"data-footnote-backref\",\"data-footnote-backref\":!0,children:\"\\u21A9\"})]})})})]})]})}}var y=b;return j;})();\n;return Component;",
+      "toc": [
+        { "value": "Overview", "url": "#overview", "depth": 2 },
+        { "value": "Theme colors", "url": "#theme-colors", "depth": 2 }
+      ],
+      "frontMatter": {
+        "readingTime": { "text": "1 min read", "minutes": 0.77, "time": 46200, "words": 154 },
+        "slug": "nestjs-tutorial",
+        "fileName": "nestjs-tutorial.mdx",
+        "title": "Nestjs 공식문서 부수기",
+        "date": "2021-08-07T15:32:14.000Z",
+        "lastmod": "2021-02-01",
+        "tags": ["nest-js", "guide"],
+        "draft": false,
+        "summary": "Nestjs 공식문서를 보며 시작하는 서버 개발!!",
+        "layout": "PostSimple",
+        "bibliography": "references-data.bib",
+        "canonicalUrl": "https://jabee7531.github.io/blog/nestjs-tutorial"
+      }
+    },
+    "authorDetails": [
+      {
+        "readingTime": { "text": "1 min read", "minutes": 0.61, "time": 36600, "words": 122 },
+        "slug": ["default"],
+        "fileName": "default.md",
+        "name": "Tails Azimuth",
+        "avatar": "/static/images/avatar.png",
+        "occupation": "Professor of Atmospheric Science",
+        "company": "Stanford University",
+        "email": "address@yoursite.com",
+        "twitter": "https://twitter.com/Twitter",
+        "linkedin": "https://www.linkedin.com",
+        "github": "https://github.com",
+        "date": null
+      }
+    ],
+    "prev": {
+      "title": "New features in v1",
+      "date": "2021-08-07T15:32:14.000Z",
+      "lastmod": "2021-02-01",
+      "tags": ["next-js", "tailwind", "guide"],
+      "draft": false,
+      "summary": "An overview of the new features released in v1 - code block copy, multiple authors, frontmatter layout and more",
+      "layout": "PostSimple",
+      "bibliography": "references-data.bib",
+      "canonicalUrl": "https://tailwind-nextjs-starter-blog.vercel.app/blog/new-features-in-v1/",
+      "slug": "new-features-in-v1"
+    },
+    "next": null
+  },
+  "__N_SSG": true
+}

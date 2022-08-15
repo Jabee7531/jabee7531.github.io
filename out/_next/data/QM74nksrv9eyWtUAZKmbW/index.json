@@ -7,7 +7,7 @@
         "lastmod": "2021-02-01",
         "tags": ["nest-js", "guide"],
         "draft": false,
-        "summary": "An overview of the new features released in v1 - code block copy, multiple authors, frontmatter layout and more",
+        "summary": "Nestjs 공식문서를 보며 시작하는 서버 개발!!",
         "layout": "PostSimple",
         "bibliography": "references-data.bib",
         "canonicalUrl": "https://jabee7531.github.io/blog/nestjs-tutorial",
@@ -93,51 +93,7 @@
         "summary": "Example of a markdown file with code blocks and syntax highlighting",
         "slug": "code-sample"
       }
-    ],
-    "initialDisplayPosts": [
-      {
-        "title": "Images in Next.js",
-        "date": "2020-11-11T00:00:00.000Z",
-        "tags": ["next js", "guide"],
-        "draft": false,
-        "summary": "In this article we introduce adding images in the tailwind starter blog and the benefits and limitations of the next/image component.",
-        "authors": ["sparrowhawk"],
-        "slug": "guide-to-using-images-in-nextjs"
-      },
-      {
-        "title": "Markdown Guide",
-        "date": "2019-10-11T00:00:00.000Z",
-        "tags": ["github", "guide"],
-        "draft": false,
-        "summary": "Markdown cheatsheet for all your blogging needs - headers, lists, images, tables and more! An illustrated guide based on GitHub Flavored Markdown.",
-        "slug": "github-markdown-guide"
-      },
-      {
-        "title": "The Time Machine",
-        "date": "2018-08-15T00:00:00.000Z",
-        "tags": ["writings", "book", "reflection"],
-        "draft": false,
-        "summary": "The Time Traveller (for so it will be convenient to speak of him) was expounding a recondite matter to us. His pale grey eyes shone and twinkled, and his usually pale face was flushed and animated...",
-        "slug": "the-time-machine"
-      },
-      {
-        "title": "O Canada",
-        "date": "2017-07-15T00:00:00.000Z",
-        "tags": ["holiday", "canada", "images"],
-        "draft": false,
-        "summary": "The scenic lands of Canada featuring maple leaves, snow-capped mountains, turquoise lakes and Toronto. Take in the sights in this photo gallery exhibition and see how easy it is to replicate with some MDX magic and tailwind classes.",
-        "slug": "pictures-of-canada"
-      },
-      {
-        "title": "Sample .md file",
-        "date": "2016-03-08T00:00:00.000Z",
-        "tags": ["markdown", "code", "features"],
-        "draft": false,
-        "summary": "Example of a markdown file with code blocks and syntax highlighting",
-        "slug": "code-sample"
-      }
-    ],
-    "pagination": { "currentPage": 2, "totalPages": 2 }
+    ]
   },
   "__N_SSG": true
 }

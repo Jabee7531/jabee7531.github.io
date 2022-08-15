@@ -569,10 +569,10 @@
         youtube: 'https://youtube.com',
         locale: 'ko-KR',
         analytics: {
-          plausibleDataDomain: '',
+          plausibleDataDomain: 'jabee7531.github.io',
           simpleAnalytics: !1,
           umamiWebsiteId: '',
-          googleAnalyticsId: '',
+          googleAnalyticsId: 'G-DFJQ2FZEXL',
           posthogAnalyticsId: '',
         },
         newsletter: { provider: 'buttondown' },
