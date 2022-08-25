@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>JaBee의 블로그</title>
+      <link>https://jabee7531.github.io/blog</link>
+      <description>JaBee의 기술 블로그 입니다 !</description>
+      <language>ko-KR</language>
+      <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
+      <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
+      <lastBuildDate>Sun, 02 May 2021 00:00:00 GMT</lastBuildDate>
+      <atom:link href="https://jabee7531.github.io/tags/feature/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://jabee7531.github.io/blog/nested-route/introducing-multi-part-posts-with-nested-routing</guid>
+    <title>Introducing Multi-part Posts with Nested Routing</title>
+    <link>https://jabee7531.github.io/blog/nested-route/introducing-multi-part-posts-with-nested-routing</link>
+    <description>The blog template supports posts in nested sub-folders. This can be used to group posts of similar content e.g. a multi-part course. This post is itself an example of a nested route!</description>
+    <pubDate>Sun, 02 May 2021 00:00:00 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>multi-author</category><category>next-js</category><category>feature</category>
+  </item>
+
+    </channel>
+  </rss>
