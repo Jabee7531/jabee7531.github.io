@@ -11,14 +11,14 @@
 # next.js
 /.next/
 # /out/
-public/sitemap.xml
+# public/sitemap.xml
 .vercel
 
 # production
 /build
 *.xml
 # rss feed
-/public/feed.xml 
+# /public/feed.xml 
 
 # misc
 .DS_Store
