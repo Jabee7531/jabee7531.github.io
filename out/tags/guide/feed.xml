@@ -11,6 +11,16 @@
       <atom:link href="https://jabee7531.github.io/tags/guide/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
+    <guid>https://jabee7531.github.io/blog/git/not_update_gitignore</guid>
+    <title>.gitignore가 재대로 동작하지 않을 때</title>
+    <link>https://jabee7531.github.io/blog/git/not_update_gitignore</link>
+    <description>.gitignore가 재대로 동작하지 않을 때</description>
+    <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>git</category><category>guide</category>
+  </item>
+
+  <item>
     <guid>https://jabee7531.github.io/blog/markdown/markdown</guid>
     <title>Makrdonw 가이드</title>
     <link>https://jabee7531.github.io/blog/markdown/markdown</link>
