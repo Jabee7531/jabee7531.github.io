@@ -7,7 +7,7 @@
       <language>ko-KR</language>
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
-      <lastBuildDate>Sat, 07 Aug 2021 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 22 Aug 2022 15:32:14 GMT</lastBuildDate>
       <atom:link href="https://jabee7531.github.io/tags/git/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
@@ -15,7 +15,7 @@
     <title>.gitignore가 재대로 동작하지 않을 때</title>
     <link>https://jabee7531.github.io/blog/git/not_update_gitignore</link>
     <description>.gitignore가 재대로 동작하지 않을 때</description>
-    <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
+    <pubDate>Mon, 22 Aug 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
     <category>git</category>
   </item>

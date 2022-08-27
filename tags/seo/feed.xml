@@ -7,15 +7,15 @@
       <language>ko-KR</language>
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
-      <lastBuildDate>Sat, 07 Aug 2021 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 26 Aug 2022 15:32:14 GMT</lastBuildDate>
       <atom:link href="https://jabee7531.github.io/tags/seo/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
     <guid>https://jabee7531.github.io/blog/seo/seo-enter-naver</guid>
     <title>네이버 검색 등록하기</title>
     <link>https://jabee7531.github.io/blog/seo/seo-enter-naver</link>
-    <description>Nestjs 공식문서를 보며 시작하는 서버 개발!!</description>
-    <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
+    <description>네이버 검색에 블로그 노출 시키기</description>
+    <pubDate>Fri, 26 Aug 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
     <category>seo</category>
   </item>
@@ -24,8 +24,8 @@
     <guid>https://jabee7531.github.io/blog/seo/seo-enter</guid>
     <title>구글 검색 등록하기</title>
     <link>https://jabee7531.github.io/blog/seo/seo-enter</link>
-    <description>Nestjs 공식문서를 보며 시작하는 서버 개발!!</description>
-    <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
+    <description>구글 검색에 블로그 노출 시키기</description>
+    <pubDate>Thu, 25 Aug 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
     <category>seo</category>
   </item>
