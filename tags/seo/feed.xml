@@ -8,26 +8,26 @@
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
       <lastBuildDate>Sat, 07 Aug 2021 15:32:14 GMT</lastBuildDate>
-      <atom:link href="https://jabee7531.github.io/tags/guide/feed.xml" rel="self" type="application/rss+xml"/>
+      <atom:link href="https://jabee7531.github.io/tags/seo/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://jabee7531.github.io/blog/markdown/markdown</guid>
-    <title>Makrdonw 가이드</title>
-    <link>https://jabee7531.github.io/blog/markdown/markdown</link>
-    <description>markdown을 알아보자</description>
-    <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
-    <author>jabee7531@gmail.com (JaBee)</author>
-    <category>markdown</category><category>guide</category>
-  </item>
-
-  <item>
-    <guid>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[1]</guid>
-    <title>Nestjs 공식문서 부수기 [1]</title>
-    <link>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[1]</link>
+    <guid>https://jabee7531.github.io/blog/seo/seo-enter-naver</guid>
+    <title>네이버 검색 등록하기</title>
+    <link>https://jabee7531.github.io/blog/seo/seo-enter-naver</link>
     <description>Nestjs 공식문서를 보며 시작하는 서버 개발!!</description>
     <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
-    <category>nest-js</category><category>guide</category>
+    <category>seo</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/seo/seo-enter</guid>
+    <title>구글 검색 등록하기</title>
+    <link>https://jabee7531.github.io/blog/seo/seo-enter</link>
+    <description>Nestjs 공식문서를 보며 시작하는 서버 개발!!</description>
+    <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>seo</category>
   </item>
 
     </channel>
