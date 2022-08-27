@@ -20,25 +20,5 @@
     <category>nest-js</category><category>guide</category>
   </item>
 
-  <item>
-    <guid>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[2]</guid>
-    <title>Nestjs 공식문서 부수기 [2]</title>
-    <link>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[2]</link>
-    <description>Nestjs 공식문서를 보며 시작하는 서버 개발!!</description>
-    <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
-    <author>jabee7531@gmail.com (JaBee)</author>
-    <category>nest-js</category><category>guide</category>
-  </item>
-
-  <item>
-    <guid>https://jabee7531.github.io/blog/seo/seo-enter</guid>
-    <title>구글 검색 등록하기</title>
-    <link>https://jabee7531.github.io/blog/seo/seo-enter</link>
-    <description>Nestjs 공식문서를 보며 시작하는 서버 개발!!</description>
-    <pubDate>Sat, 07 Aug 2021 15:32:14 GMT</pubDate>
-    <author>jabee7531@gmail.com (JaBee)</author>
-    <category>nest-js</category><category>guide</category>
-  </item>
-
     </channel>
   </rss>

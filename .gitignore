@@ -16,7 +16,7 @@
 
 # production
 /build
-*.xml
+# *.xml
 # rss feed
 # /public/feed.xml 
 
@@ -36,3 +36,5 @@ yarn-error.log*
 .env.production.local
 
 data/
+
+public/
