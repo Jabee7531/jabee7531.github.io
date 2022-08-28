@@ -28,6 +28,11 @@ class MyDocument extends Document {
             content="gHC3IUP20oWzG_mcG17l05XpB1SoND5T7IEqvqn4s3A"
           />
           <meta name="naver-site-verification" content="c30475622786a2d7057517446a7175fd9d0f9385" />
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6855217449075754"
+            crossOrigin="anonymous"
+          />
         </Head>
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
           <Main />
