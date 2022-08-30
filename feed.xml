@@ -21,6 +21,16 @@
   </item>
 
   <item>
+    <guid>https://jabee7531.github.io/blog/etc/vscode-snippet</guid>
+    <title>VSCode에서 Snippet 활용하기</title>
+    <link>https://jabee7531.github.io/blog/etc/vscode-snippet</link>
+    <description>VSCode에서 Snippet 활용하기</description>
+    <pubDate>Sun, 28 Aug 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>etc</category><category>vscode</category>
+  </item>
+
+  <item>
     <guid>https://jabee7531.github.io/blog/seo/seo-enter-naver</guid>
     <title>네이버 검색 등록하기</title>
     <link>https://jabee7531.github.io/blog/seo/seo-enter-naver</link>
@@ -41,13 +51,13 @@
   </item>
 
   <item>
-    <guid>https://jabee7531.github.io/blog/markdown/markdown</guid>
+    <guid>https://jabee7531.github.io/blog/etc/markdown</guid>
     <title>Makrdonw 가이드</title>
-    <link>https://jabee7531.github.io/blog/markdown/markdown</link>
+    <link>https://jabee7531.github.io/blog/etc/markdown</link>
     <description>markdown을 알아보자</description>
     <pubDate>Wed, 24 Aug 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
-    <category>markdown</category><category>guide</category>
+    <category>etc</category><category>markdown</category><category>guide</category>
   </item>
 
   <item>
@@ -68,6 +78,106 @@
     <pubDate>Sat, 20 Aug 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
     <category>nest-js</category><category>guide</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/ec2-memory</guid>
+    <title>ec2 build시 메모리 부족 해결</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/ec2-memory</link>
+    <description>ec2 build시 메모리 부족 해결</description>
+    <pubDate>Wed, 10 Aug 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>ec2</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/docker/docker-install</guid>
+    <title>간단한 Docker &amp; Docker-compose 설치</title>
+    <link>https://jabee7531.github.io/blog/docker/docker-install</link>
+    <description>간단한 Docker &amp; Docker-compose 설치</description>
+    <pubDate>Mon, 01 Aug 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>react</category><category>guide</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/django/migration-edit</guid>
+    <title>Django migrate 수정</title>
+    <link>https://jabee7531.github.io/blog/django/migration-edit</link>
+    <description>Django migrate 수정</description>
+    <pubDate>Tue, 26 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>django</category><category>python</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/django-notchecknull</guid>
+    <title>Django url path 문제</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/django-notchecknull</link>
+    <description>예상치 않은 URL로 접속</description>
+    <pubDate>Thu, 21 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>django</category><category>python</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/django-urlpath-error</guid>
+    <title>Django url path 문제</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/django-urlpath-error</link>
+    <description>예상치 않은 URL로 접속</description>
+    <pubDate>Fri, 15 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>django</category><category>python</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/legacyerror</guid>
+    <title>고인물(레거시) 에러…</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/legacyerror</link>
+    <description>gapi사용시 에러</description>
+    <pubDate>Mon, 11 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/whywork</guid>
+    <title>이게 왜 되지…?</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/whywork</link>
+    <description>설정하지도 않은 css가 작동하는 문제</description>
+    <pubDate>Sat, 09 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>css</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/padding-notwork</guid>
+    <title>padding이 말을 듣지 않는다…</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/padding-notwork</link>
+    <description>padding이 말을 듣지 않는다…</description>
+    <pubDate>Mon, 04 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>css</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/react/cra</guid>
+    <title>CRA를 이용한 간단한 리엑트 프로젝트 생성</title>
+    <link>https://jabee7531.github.io/blog/react/cra</link>
+    <description>CRA를 이용한 간단한 리엑트 프로젝트 생성</description>
+    <pubDate>Mon, 27 Jun 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>react</category><category>guide</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/dockercompose-notwork</guid>
+    <title>도커 컴포즈가 되지않는다?!</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/dockercompose-notwork</link>
+    <description>도커 컴포즈가 되지않는다?!</description>
+    <pubDate>Fri, 24 Jun 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>docker</category>
   </item>
 
     </channel>
