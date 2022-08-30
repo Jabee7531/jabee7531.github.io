@@ -20,5 +20,25 @@
     <category>etc</category>
   </item>
 
+  <item>
+    <guid>https://jabee7531.github.io/blog/etc/vscode-snippet</guid>
+    <title>VSCode에서 Snippet 활용하기</title>
+    <link>https://jabee7531.github.io/blog/etc/vscode-snippet</link>
+    <description>VSCode에서 Snippet 활용하기</description>
+    <pubDate>Sun, 28 Aug 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>etc</category><category>vscode</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/etc/markdown</guid>
+    <title>Makrdonw 가이드</title>
+    <link>https://jabee7531.github.io/blog/etc/markdown</link>
+    <description>markdown을 알아보자</description>
+    <pubDate>Wed, 24 Aug 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>etc</category><category>markdown</category><category>guide</category>
+  </item>
+
     </channel>
   </rss>

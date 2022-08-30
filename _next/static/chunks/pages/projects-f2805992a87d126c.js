@@ -347,19 +347,13 @@
             (0, n.BX)('div', {
               className: 'divide-y divide-gray-200 dark:divide-gray-700',
               children: [
-                (0, n.BX)('div', {
+                (0, n.tZ)('div', {
                   className: 'space-y-2 pt-6 pb-8 md:space-y-5',
-                  children: [
-                    (0, n.tZ)('h1', {
-                      className:
-                        'text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14',
-                      children: 'Projects',
-                    }),
-                    (0, n.tZ)('p', {
-                      className: 'text-lg leading-7 text-gray-500 dark:text-gray-400',
-                      children: 'Showcase your projects with a hero image (16 x 9)',
-                    }),
-                  ],
+                  children: (0, n.tZ)('h1', {
+                    className:
+                      'text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14',
+                    children: 'Projects',
+                  }),
                 }),
                 (0, n.tZ)('div', {
                   className: 'container py-12',

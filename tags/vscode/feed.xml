@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>JaBee의 블로그</title>
+      <link>https://jabee7531.github.io/blog</link>
+      <description>JaBee의 기술 블로그 입니다 !</description>
+      <language>ko-KR</language>
+      <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
+      <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
+      <lastBuildDate>Sun, 28 Aug 2022 15:32:14 GMT</lastBuildDate>
+      <atom:link href="https://jabee7531.github.io/tags/vscode/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://jabee7531.github.io/blog/etc/vscode-snippet</guid>
+    <title>VSCode에서 Snippet 활용하기</title>
+    <link>https://jabee7531.github.io/blog/etc/vscode-snippet</link>
+    <description>VSCode에서 Snippet 활용하기</description>
+    <pubDate>Sun, 28 Aug 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>etc</category><category>vscode</category>
+  </item>
+
+    </channel>
+  </rss>

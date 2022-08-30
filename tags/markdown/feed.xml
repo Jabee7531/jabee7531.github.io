@@ -11,13 +11,13 @@
       <atom:link href="https://jabee7531.github.io/tags/markdown/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://jabee7531.github.io/blog/markdown/markdown</guid>
+    <guid>https://jabee7531.github.io/blog/etc/markdown</guid>
     <title>Makrdonw 가이드</title>
-    <link>https://jabee7531.github.io/blog/markdown/markdown</link>
+    <link>https://jabee7531.github.io/blog/etc/markdown</link>
     <description>markdown을 알아보자</description>
     <pubDate>Wed, 24 Aug 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
-    <category>markdown</category><category>guide</category>
+    <category>etc</category><category>markdown</category><category>guide</category>
   </item>
 
     </channel>
