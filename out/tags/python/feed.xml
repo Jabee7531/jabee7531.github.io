@@ -1,0 +1,44 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>JaBee의 블로그</title>
+      <link>https://jabee7531.github.io/blog</link>
+      <description>JaBee의 기술 블로그 입니다 !</description>
+      <language>ko-KR</language>
+      <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
+      <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
+      <lastBuildDate>Tue, 26 Jul 2022 15:32:14 GMT</lastBuildDate>
+      <atom:link href="https://jabee7531.github.io/tags/python/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://jabee7531.github.io/blog/django/migration-edit</guid>
+    <title>Django migrate 수정</title>
+    <link>https://jabee7531.github.io/blog/django/migration-edit</link>
+    <description>Django migrate 수정</description>
+    <pubDate>Tue, 26 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>django</category><category>python</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/django-notchecknull</guid>
+    <title>Django url path 문제</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/django-notchecknull</link>
+    <description>예상치 않은 URL로 접속</description>
+    <pubDate>Thu, 21 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>django</category><category>python</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/django-urlpath-error</guid>
+    <title>Django url path 문제</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/django-urlpath-error</link>
+    <description>예상치 않은 URL로 접속</description>
+    <pubDate>Fri, 15 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>django</category><category>python</category>
+  </item>
+
+    </channel>
+  </rss>

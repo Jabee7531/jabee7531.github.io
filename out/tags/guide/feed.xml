@@ -11,13 +11,13 @@
       <atom:link href="https://jabee7531.github.io/tags/guide/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://jabee7531.github.io/blog/markdown/markdown</guid>
+    <guid>https://jabee7531.github.io/blog/etc/markdown</guid>
     <title>Makrdonw 가이드</title>
-    <link>https://jabee7531.github.io/blog/markdown/markdown</link>
+    <link>https://jabee7531.github.io/blog/etc/markdown</link>
     <description>markdown을 알아보자</description>
     <pubDate>Wed, 24 Aug 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
-    <category>markdown</category><category>guide</category>
+    <category>etc</category><category>markdown</category><category>guide</category>
   </item>
 
   <item>
@@ -28,6 +28,26 @@
     <pubDate>Sat, 20 Aug 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
     <category>nest-js</category><category>guide</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/docker/docker-install</guid>
+    <title>간단한 Docker &amp; Docker-compose 설치</title>
+    <link>https://jabee7531.github.io/blog/docker/docker-install</link>
+    <description>간단한 Docker &amp; Docker-compose 설치</description>
+    <pubDate>Mon, 01 Aug 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>react</category><category>guide</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/react/cra</guid>
+    <title>CRA를 이용한 간단한 리엑트 프로젝트 생성</title>
+    <link>https://jabee7531.github.io/blog/react/cra</link>
+    <description>CRA를 이용한 간단한 리엑트 프로젝트 생성</description>
+    <pubDate>Mon, 27 Jun 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>react</category><category>guide</category>
   </item>
 
     </channel>

@@ -1,0 +1,84 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>JaBee의 블로그</title>
+      <link>https://jabee7531.github.io/blog</link>
+      <description>JaBee의 기술 블로그 입니다 !</description>
+      <language>ko-KR</language>
+      <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
+      <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
+      <lastBuildDate>Wed, 10 Aug 2022 15:32:14 GMT</lastBuildDate>
+      <atom:link href="https://jabee7531.github.io/tags/troubleshooting/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/ec2-memory</guid>
+    <title>ec2 build시 메모리 부족 해결</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/ec2-memory</link>
+    <description>ec2 build시 메모리 부족 해결</description>
+    <pubDate>Wed, 10 Aug 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>ec2</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/django-notchecknull</guid>
+    <title>Django url path 문제</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/django-notchecknull</link>
+    <description>예상치 않은 URL로 접속</description>
+    <pubDate>Thu, 21 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>django</category><category>python</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/django-urlpath-error</guid>
+    <title>Django url path 문제</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/django-urlpath-error</link>
+    <description>예상치 않은 URL로 접속</description>
+    <pubDate>Fri, 15 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>django</category><category>python</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/legacyerror</guid>
+    <title>고인물(레거시) 에러…</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/legacyerror</link>
+    <description>gapi사용시 에러</description>
+    <pubDate>Mon, 11 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/whywork</guid>
+    <title>이게 왜 되지…?</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/whywork</link>
+    <description>설정하지도 않은 css가 작동하는 문제</description>
+    <pubDate>Sat, 09 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>css</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/padding-notwork</guid>
+    <title>padding이 말을 듣지 않는다…</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/padding-notwork</link>
+    <description>padding이 말을 듣지 않는다…</description>
+    <pubDate>Mon, 04 Jul 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>css</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/troubleshooting/dockercompose-notwork</guid>
+    <title>도커 컴포즈가 되지않는다?!</title>
+    <link>https://jabee7531.github.io/blog/troubleshooting/dockercompose-notwork</link>
+    <description>도커 컴포즈가 되지않는다?!</description>
+    <pubDate>Fri, 24 Jun 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>troubleshooting</category><category>docker</category>
+  </item>
+
+    </channel>
+  </rss>
