@@ -7,9 +7,19 @@
       <language>ko-KR</language>
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
-      <lastBuildDate>Sun, 28 Aug 2022 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 01 Sep 2022 07:32:14 GMT</lastBuildDate>
       <atom:link href="https://jabee7531.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[3]</guid>
+    <title>Nestjs 공식문서 부수기 [3]</title>
+    <link>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[3]</link>
+    <description>Nestjs 공식문서를 보며 시작하는 서버 개발!!</description>
+    <pubDate>Thu, 01 Sep 2022 07:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>nest-js</category><category>guide</category>
+  </item>
+
   <item>
     <guid>https://jabee7531.github.io/blog/etc/google-adsense</guid>
     <title>구글 애드센스 등록하기</title>
@@ -68,6 +78,16 @@
     <pubDate>Mon, 22 Aug 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
     <category>git</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[2]</guid>
+    <title>Nestjs 공식문서 부수기 [2]</title>
+    <link>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[2]</link>
+    <description>Nestjs 공식문서를 보며 시작하는 서버 개발!!</description>
+    <pubDate>Sun, 21 Aug 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>nest-js</category><category>guide</category>
   </item>
 
   <item>
