@@ -5,9 +5,3 @@
     <a href="https://jabee7531.github.io">https://jabee7531.github.io
     </a>
 </div>
-</br>
-</br>
-
-# 라이센스
-
-MIT License
