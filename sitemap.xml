@@ -1,321 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	  	  
-<!-- www.check-domains.com sitemap generator -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://jabee7531.github.io/about</loc>
+  </url>
 
-<url>
-   <loc>https://jabee7531.github.io/</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>1.0000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/projects</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/nest-js</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/guide</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/etc/google-adsense</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/etc</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/etc/vscode-snippet</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/vscode</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/seo/seo-enter-naver</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/seo</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/seo/seo-enter</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.8000</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/page/2</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/troubleshooting</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/django</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/python</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/react</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/css</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/markdown</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/git</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/docker</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/ec2</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/nest-js/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[1]</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/guide/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/etc/markdown</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/docker/docker-install</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/react/cra</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/etc/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/vscode/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/seo/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.6400</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/git/not_update_gitignore</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/troubleshooting/ec2-memory</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/page/3</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/troubleshooting/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/troubleshooting/legacyerror</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/troubleshooting/whywork</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/troubleshooting/padding-notwork</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/troubleshooting/dockercompose-notwork</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/django/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/django/migration-edit</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/python/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/react/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/css/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/markdown/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/git/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/docker/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/tags/ec2/feed.xml</loc>
-   <lastmod>2022-09-01T12:22:38+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/404</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.5120</priority>
-</url>
-<url>
-   <loc>https://jabee7531.github.io/blog/page/4</loc>
-   <lastmod>2022-09-01T12:16:09+00:00</lastmod>
-   <changefreq>monthly</changefreq>
-   <priority>0.4096</priority>
-</url>
+  <url>
+    <loc>https://jabee7531.github.io/blog</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/projects</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/book</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/canada</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/code</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/css</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/django</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/docker</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/ec2</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/etc</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/feature</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/features</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/git</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/github</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/guide</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/holiday</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/images</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/markdown</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/math</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/multi-author</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/nest-js</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/nestjs</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/next-js</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/ols</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/python</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/react</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/reflection</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/seo</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/tailwind</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/troubleshooting</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/vscode</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/tags/writings</loc>
+  </url>
 </urlset>
