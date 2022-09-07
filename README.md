@@ -5,16 +5,3 @@
     <a href="https://jabee7531.github.io">https://jabee7531.github.io
     </a>
 </div>
-</br>
-
-# 요약
-
-방문해주셔서 감사합니다 !
-
-재밋게 읽으면 또 찾아와 주세요 !!!
-
-</br>
-
-# 라이센스
-
-MIT License
