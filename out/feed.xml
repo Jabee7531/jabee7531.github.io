@@ -7,9 +7,19 @@
       <language>ko-KR</language>
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
-      <lastBuildDate>Wed, 07 Sep 2022 07:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Tue, 13 Sep 2022 15:32:14 GMT</lastBuildDate>
       <atom:link href="https://jabee7531.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://jabee7531.github.io/blog/nextjs/googletranslate</guid>
+    <title>구글 번역기 적용하기</title>
+    <link>https://jabee7531.github.io/blog/nextjs/googletranslate</link>
+    <description>Nextjs 블로그에 구글번역기 적용하기</description>
+    <pubDate>Tue, 13 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>next-js</category>
+  </item>
+
   <item>
     <guid>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[5]</guid>
     <title>Nestjs 공식문서 부수기 [5]</title>
