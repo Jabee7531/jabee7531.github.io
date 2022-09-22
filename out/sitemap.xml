@@ -21,15 +21,107 @@
   </url>
 
   <url>
-    <loc>https://jabee7531.github.io/tags/book</loc>
+    <loc>https://jabee7531.github.io/blog/django/migration-edit</loc>
   </url>
 
   <url>
-    <loc>https://jabee7531.github.io/tags/code</loc>
+    <loc>https://jabee7531.github.io/blog/etc/google-adsense</loc>
   </url>
 
   <url>
-    <loc>https://jabee7531.github.io/tags/canada</loc>
+    <loc>https://jabee7531.github.io/blog/etc/vscode-snippet</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/docker/docker-install</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/git/not_update_gitignore</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[1]</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[2]</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[3]</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[4]</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[5]</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/nextjs/googletranslate</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[1]</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[2]</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[3]</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[4]</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/react/cra</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/seo/seo-enter-naver</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/seo/seo-enter</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/troubleshooting/django-notchecknull</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/troubleshooting/django-urlpath-error</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/troubleshooting/dockercompose-notwork</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/troubleshooting/ec2-memory</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/troubleshooting/legacyerror</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/troubleshooting/padding-notwork</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/troubleshooting/whywork</loc>
+  </url>
+
+  <url>
+    <loc>https://jabee7531.github.io/blog/etc/markdown</loc>
   </url>
 
   <url>
@@ -53,19 +145,7 @@
   </url>
 
   <url>
-    <loc>https://jabee7531.github.io/tags/feature</loc>
-  </url>
-
-  <url>
-    <loc>https://jabee7531.github.io/tags/features</loc>
-  </url>
-
-  <url>
     <loc>https://jabee7531.github.io/tags/git</loc>
-  </url>
-
-  <url>
-    <loc>https://jabee7531.github.io/tags/github</loc>
   </url>
 
   <url>
@@ -73,23 +153,7 @@
   </url>
 
   <url>
-    <loc>https://jabee7531.github.io/tags/holiday</loc>
-  </url>
-
-  <url>
-    <loc>https://jabee7531.github.io/tags/images</loc>
-  </url>
-
-  <url>
     <loc>https://jabee7531.github.io/tags/markdown</loc>
-  </url>
-
-  <url>
-    <loc>https://jabee7531.github.io/tags/math</loc>
-  </url>
-
-  <url>
-    <loc>https://jabee7531.github.io/tags/multi-author</loc>
   </url>
 
   <url>
@@ -97,15 +161,11 @@
   </url>
 
   <url>
-    <loc>https://jabee7531.github.io/tags/nestjs</loc>
-  </url>
-
-  <url>
     <loc>https://jabee7531.github.io/tags/next-js</loc>
   </url>
 
   <url>
-    <loc>https://jabee7531.github.io/tags/ols</loc>
+    <loc>https://jabee7531.github.io/tags/optimization</loc>
   </url>
 
   <url>
@@ -117,15 +177,7 @@
   </url>
 
   <url>
-    <loc>https://jabee7531.github.io/tags/reflection</loc>
-  </url>
-
-  <url>
     <loc>https://jabee7531.github.io/tags/seo</loc>
-  </url>
-
-  <url>
-    <loc>https://jabee7531.github.io/tags/tailwind</loc>
   </url>
 
   <url>
@@ -134,9 +186,5 @@
 
   <url>
     <loc>https://jabee7531.github.io/tags/vscode</loc>
-  </url>
-
-  <url>
-    <loc>https://jabee7531.github.io/tags/writings</loc>
   </url>
 </urlset>
