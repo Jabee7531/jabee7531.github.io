@@ -6,6 +6,7 @@ import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
+import Script from 'next/script'
 
 const LayoutWrapper = ({ children }) => {
   return (
@@ -28,6 +29,7 @@ const LayoutWrapper = ({ children }) => {
               </div>
             </Link>
           </div>
+
           <div className="flex items-center text-base leading-5">
             <div className="hidden sm:block">
               {headerNavLinks.map((link) => (
@@ -40,6 +42,23 @@ const LayoutWrapper = ({ children }) => {
                 </Link>
               ))}
             </div>
+            <div id="google_translate_element" />
+            <Script
+              strategy="lazyOnload"
+              src={`https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit`}
+            />
+
+            <Script strategy="lazyOnload" id="gt-script">
+              {`
+                  function googleTranslateElementInit() {
+                  new google.translate.TranslateElement({
+                  pageLanguage: 'kr', 
+                  autoDisplay:'true', 
+                  layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+                  }, 'google_translate_element');
+                  }
+            `}
+            </Script>
             <ThemeSwitch />
             <MobileNav />
           </div>
