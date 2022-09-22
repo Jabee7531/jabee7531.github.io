@@ -7,9 +7,49 @@
       <language>ko-KR</language>
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
-      <lastBuildDate>Tue, 13 Sep 2022 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Wed, 21 Sep 2022 15:32:14 GMT</lastBuildDate>
       <atom:link href="https://jabee7531.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[4]</guid>
+    <title>웹페이지 속도 및 성능을 테스트를 해보자2</title>
+    <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[4]</link>
+    <description>개인 프로젝트 성능개선 프로젝트 !</description>
+    <pubDate>Wed, 21 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>optimization</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[3]</guid>
+    <title>웹페이지 속도 및 성능을 테스트를 해보자1</title>
+    <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[3]</link>
+    <description>개인 프로젝트 성능개선 프로젝트 !</description>
+    <pubDate>Tue, 20 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>optimization</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[2]</guid>
+    <title>스트레스 테스트를 해보자</title>
+    <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[2]</link>
+    <description>개인 프로젝트 성능개선 프로젝트 !</description>
+    <pubDate>Sun, 18 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>optimization</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[1]</guid>
+    <title>나의 개인 프로젝트는 어느정도의 성능을 가지고 있을까?</title>
+    <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[1]</link>
+    <description>개인 프로젝트 성능개선 프로젝트 !</description>
+    <pubDate>Thu, 15 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>optimization</category>
+  </item>
+
   <item>
     <guid>https://jabee7531.github.io/blog/nextjs/googletranslate</guid>
     <title>구글 번역기 적용하기</title>
@@ -31,9 +71,9 @@
   </item>
 
   <item>
-    <guid>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[4] copy</guid>
+    <guid>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[4]</guid>
     <title>Nestjs 공식문서 부수기 [4]</title>
-    <link>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[4] copy</link>
+    <link>https://jabee7531.github.io/blog/nestjs/nestjs-tutorial[4]</link>
     <description>Nestjs 공식문서를 보며 시작하는 서버 개발!!</description>
     <pubDate>Mon, 05 Sep 2022 07:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>

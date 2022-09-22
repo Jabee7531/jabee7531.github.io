@@ -1,0 +1,54 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>JaBee의 블로그</title>
+      <link>https://jabee7531.github.io/blog</link>
+      <description>JaBee의 기술 블로그 입니다 !</description>
+      <language>ko-KR</language>
+      <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
+      <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
+      <lastBuildDate>Wed, 21 Sep 2022 15:32:14 GMT</lastBuildDate>
+      <atom:link href="https://jabee7531.github.io/tags/optimization/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[4]</guid>
+    <title>웹페이지 속도 및 성능을 테스트를 해보자2</title>
+    <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[4]</link>
+    <description>개인 프로젝트 성능개선 프로젝트 !</description>
+    <pubDate>Wed, 21 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>optimization</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[3]</guid>
+    <title>웹페이지 속도 및 성능을 테스트를 해보자1</title>
+    <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[3]</link>
+    <description>개인 프로젝트 성능개선 프로젝트 !</description>
+    <pubDate>Tue, 20 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>optimization</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[2]</guid>
+    <title>스트레스 테스트를 해보자</title>
+    <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[2]</link>
+    <description>개인 프로젝트 성능개선 프로젝트 !</description>
+    <pubDate>Sun, 18 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>optimization</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[1]</guid>
+    <title>나의 개인 프로젝트는 어느정도의 성능을 가지고 있을까?</title>
+    <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[1]</link>
+    <description>개인 프로젝트 성능개선 프로젝트 !</description>
+    <pubDate>Thu, 15 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>optimization</category>
+  </item>
+
+    </channel>
+  </rss>
