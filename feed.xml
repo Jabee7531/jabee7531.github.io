@@ -7,22 +7,22 @@
       <language>ko-KR</language>
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
-      <lastBuildDate>Wed, 21 Sep 2022 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 22 Sep 2022 15:32:14 GMT</lastBuildDate>
       <atom:link href="https://jabee7531.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
   <item>
-    <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[4]</guid>
-    <title>웹페이지 속도 및 성능을 테스트를 해보자2</title>
-    <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[4]</link>
-    <description>개인 프로젝트 성능개선 프로젝트 !</description>
-    <pubDate>Wed, 21 Sep 2022 15:32:14 GMT</pubDate>
+    <guid>https://jabee7531.github.io/blog/git/git-flow</guid>
+    <title>Git-Flow를 알아보자</title>
+    <link>https://jabee7531.github.io/blog/git/git-flow</link>
+    <description>Git 브랜칭 모델 중 하나인 Git-Flow를 알아보자</description>
+    <pubDate>Thu, 22 Sep 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
-    <category>optimization</category>
+    <category>git</category>
   </item>
 
   <item>
     <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[3]</guid>
-    <title>웹페이지 속도 및 성능을 테스트를 해보자1</title>
+    <title>웹페이지 속도 및 성능을 테스트를 해보자</title>
     <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[3]</link>
     <description>개인 프로젝트 성능개선 프로젝트 !</description>
     <pubDate>Tue, 20 Sep 2022 15:32:14 GMT</pubDate>

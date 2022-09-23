@@ -7,9 +7,19 @@
       <language>ko-KR</language>
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
-      <lastBuildDate>Mon, 22 Aug 2022 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Thu, 22 Sep 2022 15:32:14 GMT</lastBuildDate>
       <atom:link href="https://jabee7531.github.io/tags/git/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://jabee7531.github.io/blog/git/git-flow</guid>
+    <title>Git-Flow를 알아보자</title>
+    <link>https://jabee7531.github.io/blog/git/git-flow</link>
+    <description>Git 브랜칭 모델 중 하나인 Git-Flow를 알아보자</description>
+    <pubDate>Thu, 22 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>git</category>
+  </item>
+
   <item>
     <guid>https://jabee7531.github.io/blog/git/not_update_gitignore</guid>
     <title>.gitignore가 재대로 동작하지 않을 때</title>
