@@ -10,7 +10,7 @@
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky install",
-    "deploy": "rm -rf node_modules/.cache && rm -rf ./out &&  next build && node ./scripts/generate-sitemap && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git push --delete origin gh-pages && git subtree push --prefix out origin gh-pages"
+    "deploy": "rm -rf node_modules/.cache && rm -rf ./out &&  next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git push --delete origin gh-pages && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@fontsource/inter": "4.5.2",
