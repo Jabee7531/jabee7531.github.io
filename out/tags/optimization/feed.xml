@@ -7,9 +7,19 @@
       <language>ko-KR</language>
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
-      <lastBuildDate>Tue, 20 Sep 2022 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Mon, 26 Sep 2022 15:32:14 GMT</lastBuildDate>
       <atom:link href="https://jabee7531.github.io/tags/optimization/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[4]</guid>
+    <title>부하 테스트를 해보자[1]</title>
+    <link>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[4]</link>
+    <description>개인 프로젝트 성능개선 프로젝트 !</description>
+    <pubDate>Mon, 26 Sep 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>optimization</category>
+  </item>
+
   <item>
     <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[3]</guid>
     <title>웹페이지 속도 및 성능을 테스트를 해보자</title>
