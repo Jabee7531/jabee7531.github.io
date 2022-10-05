@@ -7,9 +7,29 @@
       <language>ko-KR</language>
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
-      <lastBuildDate>Tue, 27 Sep 2022 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 02 Oct 2022 15:32:14 GMT</lastBuildDate>
       <atom:link href="https://jabee7531.github.io/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://jabee7531.github.io/blog/project/honeycomb/honeycomb[2]</guid>
+    <title>HoneyComB 프로젝트 기획</title>
+    <link>https://jabee7531.github.io/blog/project/honeycomb/honeycomb[2]</link>
+    <description>새로운 개인 프로젝트 HoneyComB !</description>
+    <pubDate>Sun, 02 Oct 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>project</category><category>HoneyComB</category>
+  </item>
+
+  <item>
+    <guid>https://jabee7531.github.io/blog/project/honeycomb/honeycomb[1]</guid>
+    <title>HoneyComB 프로젝트</title>
+    <link>https://jabee7531.github.io/blog/project/honeycomb/honeycomb[1]</link>
+    <description>새로운 개인 프로젝트 HoneyComB !</description>
+    <pubDate>Sat, 01 Oct 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>project</category><category>HoneyComB</category>
+  </item>
+
   <item>
     <guid>https://jabee7531.github.io/blog/optimization/hackathonshop-optimization[5]</guid>
     <title>부하 테스트를 해보자[2]</title>
@@ -17,7 +37,7 @@
     <description>개인 프로젝트 성능개선 프로젝트 !</description>
     <pubDate>Tue, 27 Sep 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
-    <category>optimization</category>
+    <category>project</category><category>optimization</category>
   </item>
 
   <item>
@@ -27,7 +47,7 @@
     <description>개인 프로젝트 성능개선 프로젝트 !</description>
     <pubDate>Mon, 26 Sep 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
-    <category>optimization</category>
+    <category>project</category><category>optimization</category>
   </item>
 
   <item>
@@ -47,7 +67,7 @@
     <description>개인 프로젝트 성능개선 프로젝트 !</description>
     <pubDate>Tue, 20 Sep 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
-    <category>optimization</category>
+    <category>project</category><category>optimization</category>
   </item>
 
   <item>
@@ -57,7 +77,7 @@
     <description>개인 프로젝트 성능개선 프로젝트 !</description>
     <pubDate>Sun, 18 Sep 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
-    <category>optimization</category>
+    <category>project</category><category>optimization</category>
   </item>
 
   <item>
@@ -67,7 +87,7 @@
     <description>개인 프로젝트 성능개선 프로젝트 !</description>
     <pubDate>Thu, 15 Sep 2022 15:32:14 GMT</pubDate>
     <author>jabee7531@gmail.com (JaBee)</author>
-    <category>optimization</category>
+    <category>project</category><category>optimization</category>
   </item>
 
   <item>
