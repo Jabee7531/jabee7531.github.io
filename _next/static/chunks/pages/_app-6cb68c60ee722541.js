@@ -556,7 +556,8 @@
         title: 'JaBee\uc758 \ube14\ub85c\uadf8',
         author: 'JaBee',
         headerTitle: 'JaBee',
-        description: 'JaBee\uc758 \uae30\uc220 \ube14\ub85c\uadf8 \uc785\ub2c8\ub2e4 !',
+        description:
+          'JaBee\uc758 \ube14\ub85c\uadf8\uc5d0 \uc624\uc2e0\uac78 \ud658\uc601\ud569\ub2c8\ub2e4!',
         language: 'ko-KR',
         theme: 'system',
         siteUrl: 'https://jabee7531.github.io',
