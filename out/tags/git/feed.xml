@@ -7,9 +7,19 @@
       <language>ko-KR</language>
       <managingEditor>jabee7531@gmail.com (JaBee)</managingEditor>
       <webMaster>jabee7531@gmail.com (JaBee)</webMaster>
-      <lastBuildDate>Thu, 22 Sep 2022 15:32:14 GMT</lastBuildDate>
+      <lastBuildDate>Fri, 18 Nov 2022 15:32:14 GMT</lastBuildDate>
       <atom:link href="https://jabee7531.github.io/tags/git/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://jabee7531.github.io/blog/git/commit-message-convention</guid>
+    <title>Git 커밋 메시지 컨벤션</title>
+    <link>https://jabee7531.github.io/blog/git/commit-message-convention</link>
+    <description>Git 커밋 메시지 컨벤션</description>
+    <pubDate>Fri, 18 Nov 2022 15:32:14 GMT</pubDate>
+    <author>jabee7531@gmail.com (JaBee)</author>
+    <category>git</category>
+  </item>
+
   <item>
     <guid>https://jabee7531.github.io/blog/git/git-flow</guid>
     <title>Git-Flow를 알아보자</title>
